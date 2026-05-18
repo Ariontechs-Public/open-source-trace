@@ -1,0 +1,25 @@
+# Required
+name: nano-claude
+category: cli-tools
+upstream:
+  url: https://github.com/dox012/nano-claude
+  pinned_commit: "21ee5c6"         # main HEAD as of 2026-05-19 (no upstream releases tagged at this layer; per-feature tags v0..v8 exist within the project)
+  license: MIT
+status: tracing
+one_line: "Minimal Claude Code reimplementation in ~2,000 lines of TypeScript (19 files, 7 tools, Node.js + readline) — explicitly designed as a learning artifact with versioned milestones v0..v8."
+tags: [minimal, pedagogical, claude-code-clone, agent-harness, learning-artifact, versioned-milestones]
+added: 2026-05-19
+
+# Optional
+last_traced: 2026-05-19
+learned:
+  - "7 tools is the asserted minimum for an agentic coding CLI: Bash, Read, Write, Edit, Glob, Grep, Agent. Everything Claude Code ships beyond this is convenience or specialization, not load-bearing."
+  - "Each milestone (v0 chatbot → v8 CLI args) is a separate git tag with a documented 'key concept' — `git checkout v3` lets you study tool risk classification in isolation."
+  - "Permission model is ~80 lines (v3): Bash classified per command; Read/Glob/Grep/Agent are 'safe'; Write/Edit are 'write'. That's the minimum viable shape."
+  - "Smart conversation compaction (v5) is treated as its own discrete milestone in ~130 LOC — not bundled into the chat loop."
+  - "Sub-agent (v7) is just the 7th tool, not a separate dispatch system — orchestration primitive in ~150 LOC."
+  - "Readline UI vs Claude Code's React+Ink: ergonomically worse but cuts dependencies dramatically. Trade visible."
+related:
+  - "[[claude-code]]"
+  - "[[opencode]]"
+articles: []

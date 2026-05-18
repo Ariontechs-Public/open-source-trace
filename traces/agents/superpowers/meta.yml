@@ -1,13 +1,9 @@
-# EXAMPLE — the upstream submodule has NOT been added under agents/superpowers/ yet.
-# The pinned_commit below is illustrative; once `git submodule add` runs, update it
-# to match the actual checkout (see CLAUDE.md → Re-tracing an Updated Upstream).
-
 # Required
 name: Superpowers
 category: agents
 upstream:
   url: https://github.com/obra/superpowers
-  pinned_commit: "5.1.0"           # bump when re-tracing; must match the submodule checkout
+  pinned_commit: "v5.1.0"          # bump when re-tracing; must match the submodule checkout
   license: MIT
 status: tracing                    # tracing | baseline | pass-1-done | archived
 one_line: "Skill-based agent system: agents invoke discrete markdown skills as tools, routed by frontmatter descriptions."

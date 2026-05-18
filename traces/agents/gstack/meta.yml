@@ -1,0 +1,25 @@
+# Required
+name: gstack
+category: agents
+upstream:
+  url: https://github.com/garrytan/gstack
+  pinned_commit: "026751ea"        # main HEAD as of 2026-05-19 (no upstream releases yet)
+  license: MIT
+status: tracing
+one_line: "Garry Tan's Claude Code setup: 23 persona-bundled subagent skills (CEO, Designer, Eng Manager, Reviewer, QA, SRE...) that compose via design-doc handoff."
+tags: [claude-code-plugin, subagents, personas, opinionated-workflow, multi-agent-host]
+added: 2026-05-19
+
+# Optional
+last_traced: 2026-05-19
+learned:
+  - "Persona-bundled skills (CEO, Designer, Eng Manager) compose by writing documents the next skill reads — no explicit orchestration layer."
+  - "Host adapter pattern (10+ hosts: claude, codex, opencode, cursor, factory, slate, hermes, gbrain, kiro, openclaw) makes the same skills run across agents."
+  - "SKILL.md files are template-generated from .tmpl via `bun run gen:skill-docs` — keeps shared preamble (jargon glossary, writing style) consistent without per-skill duplication."
+  - "Diff-based eval test selection: tests declare file dependencies, only deps-touched tests run. Cost-aware test infra."
+  - "Two-line bold release headline + 'numbers that matter' table at the top of every CHANGELOG entry, then itemized below — release notes treated as primary user artifact."
+related:
+  - "[[superpowers]]"
+  - "[[claude-code]]"
+  - "[[opencode]]"
+articles: []

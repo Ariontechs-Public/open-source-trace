@@ -1,0 +1,25 @@
+# Required
+name: opencode
+category: cli-tools
+upstream:
+  url: https://github.com/anomalyco/opencode
+  pinned_commit: "v1.15.5"         # release tag published 2026-05-18
+  license: MIT
+status: tracing
+one_line: "Open-source agentic coding CLI in the Claude Code space — multi-provider, single-binary install across mac/Win/Linux/Arch/nix, plus desktop apps."
+tags: [oss, cli, agent-harness, multi-provider, claude-code-alternative, build-plan-toggle]
+added: 2026-05-19
+
+# Optional
+last_traced: 2026-05-19
+learned:
+  - "Two-agent toggle: `build` (full-access) vs `plan` (read-only, denies edits, asks before bash). Tab-switchable — the safety/exploration tradeoff is a user-visible affordance, not a settings dialog."
+  - "Internal `general` subagent for complex searches, invokable via @general."
+  - "Distribution surface is massive (brew tap + scoop + choco + AUR + nix + mise + curl + npm + desktop installers) — lowers 'I can't try it' friction more than docs ever could."
+  - "22+ READMEs in maintained translations — community translation surface is treated as a feature."
+  - "Default branch is `dev`, not `main` — release discipline distinguishes integration target from publishable releases."
+related:
+  - "[[claude-code]]"
+  - "[[nano-claude]]"
+  - "[[gstack]]"
+articles: []

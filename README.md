@@ -34,9 +34,13 @@ New categories (e.g., `models/`) are added as the scope grows.
 
 <!-- INDEX:START -->
 
-| Project | Category | Status | One Line |
-|---|---|---|---|
-| _Index will populate as projects are added._ | — | — | — |
+| Project | Category | Pinned | Status | One Line |
+|---|---|---|---|---|
+| [Superpowers](traces/agents/superpowers/summary.md) | agents | v5.1.0 | tracing | Skill-based agent system: agents invoke discrete markdown skills as tools, routed by frontmatter descriptions. |
+| [gstack](traces/agents/gstack/summary.md) | agents | `026751ea` | tracing | Garry Tan's Claude Code setup: 23 persona-bundled subagent skills (CEO, Designer, Eng Manager, Reviewer, QA, SRE...) that compose via design-doc handoff. |
+| [Claude Code](traces/cli-tools/claude-code/summary.md) | cli-tools | v2.1.143 | tracing | Anthropic's official agentic coding CLI: terminal-native, codebase-aware, with hooks, slash commands, MCP servers, plugins, and IDE integrations. |
+| [opencode](traces/cli-tools/opencode/summary.md) | cli-tools | v1.15.5 | tracing | Open-source agentic coding CLI in the Claude Code space — multi-provider, single-binary install across mac/Win/Linux/Arch/nix, plus desktop apps. |
+| [nano-claude](traces/cli-tools/nano-claude/summary.md) | cli-tools | `21ee5c6` | tracing | Minimal Claude Code reimplementation in ~2,000 lines of TypeScript (19 files, 7 tools, Node.js + readline) — explicitly designed as a learning artifact with versioned milestones v0..v8. |
 
 <!-- INDEX:END -->
 
