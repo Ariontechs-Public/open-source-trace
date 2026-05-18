@@ -1,0 +1,27 @@
+# EXAMPLE — the upstream submodule has NOT been added under agents/superpowers/ yet.
+# The pinned_commit below is illustrative; once `git submodule add` runs, update it
+# to match the actual checkout (see CLAUDE.md → Re-tracing an Updated Upstream).
+
+# Required
+name: Superpowers
+category: agents
+upstream:
+  url: https://github.com/obra/superpowers
+  pinned_commit: "5.1.0"           # bump when re-tracing; must match the submodule checkout
+  license: MIT
+status: tracing                    # tracing | baseline | pass-1-done | archived
+one_line: "Skill-based agent system: agents invoke discrete markdown skills as tools, routed by frontmatter descriptions."
+tags: [coding-agent, skill-system, anthropic-flavor, claude-code-plugin]
+added: 2026-05-19
+
+# Optional
+last_traced: 2026-05-19
+learned:
+  - "Skills are .md files with YAML frontmatter; the `description` field is the routing hint the LLM uses to decide when to invoke."
+  - "Process skills (brainstorming, debugging, TDD) explicitly take priority over implementation skills."
+  - "DOT (graphviz) diagrams embedded inline in SKILL.md are parsed by the model as flowcharts — surprisingly effective for procedural skills."
+  - "HARD-GATE blocks (e.g., 'no implementation until design approved') are simple textual contracts the model actually respects."
+related:
+  - "[[gstack]]"
+  - "[[claude-code]]"
+articles: []

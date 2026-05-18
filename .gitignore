@@ -1,0 +1,32 @@
+# Note: graphify-out/ is intentionally tracked. See CLAUDE.md → The Three Trees.
+# It's machine-generated but committed so visitors don't need graphify locally.
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Tooling state (Claude Code project-local, direnv)
+.claude/
+.envrc
+
+# Logs
+*.log
+
+# Node (if scripts/ ever needs it)
+node_modules/
+
+# Python (if scripts/ ever needs it)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local env / secrets
+.env
+.env.local
+.env.*.local
