@@ -11,7 +11,11 @@
 *~
 
 # Tooling state (Claude Code project-local, direnv)
-.claude/
+# Ignore Claude Code's runtime state, but DO commit settings.json (project policy).
+# NOTE: `.claude/*` (not `.claude/`) — directory ignore would prevent git from descending,
+# making the negation below ineffective.
+.claude/*
+!.claude/settings.json
 .envrc
 
 # Logs
