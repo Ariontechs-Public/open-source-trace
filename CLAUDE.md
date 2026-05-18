@@ -140,6 +140,7 @@ English paragraph.
 - `docs/superpowers/specs/` — design docs / spec for this repo's own evolution (e.g., this layout was specified in `docs/superpowers/specs/2026-05-19-open-source-trace-design.md`)
 - `experiments/<name>/` — our own POCs and applications, NOT for tracking other people's projects
 - `scripts/` — repo maintenance (planned: `build-index.*` to regenerate the README INDEX block)
+- `.claude/settings.json` — committed Claude Code config. Currently used to exclude submodule `CLAUDE.md` files from auto-discovery via `claudeMdExcludes`, so each submodule's upstream CLAUDE.md (intended for THEIR contributors) doesn't pollute this repo's session context.
 
 ## Related Repos
 
