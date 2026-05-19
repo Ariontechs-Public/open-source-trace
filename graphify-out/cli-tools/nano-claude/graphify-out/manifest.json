@@ -1,0 +1,94 @@
+{
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/prompt.ts": {
+    "mtime": 1779147935.0164723,
+    "hash": "b6a6bd8cfcb2d99be0bba9734be1a7c7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/permissions.ts": {
+    "mtime": 1779147935.0163786,
+    "hash": "945e864297bfcec0501d4e7daa95f804"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/context.ts": {
+    "mtime": 1779147935.0158968,
+    "hash": "b6b8371fd937f7bb41afde843839fb3f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/api.ts": {
+    "mtime": 1779147935.0155804,
+    "hash": "43d7d0189b6820e7c699c8b855498198"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/types.ts": {
+    "mtime": 1779147935.0175295,
+    "hash": "7f580203ee458183575f5e662e4a93c8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/session.ts": {
+    "mtime": 1779147935.0166647,
+    "hash": "a01fb69c3c58fcbdb77a981ae83c5e86"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/compact.ts": {
+    "mtime": 1779147935.0157483,
+    "hash": "e5d605993b751c9630d228442aa1779f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/memory.ts": {
+    "mtime": 1779147935.0161536,
+    "hash": "da3fa8856d8376607ac96ed73df40091"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/render.ts": {
+    "mtime": 1779147935.0165672,
+    "hash": "541beca660a1acad13faa1f6c7fbf6a7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/index.ts": {
+    "mtime": 1779147935.0160322,
+    "hash": "53e929c2db8f992e91fb814ed9710213"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/read.ts": {
+    "mtime": 1779147935.017315,
+    "hash": "fd9b1a691c97aff650aaef58885a80da"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/agent.ts": {
+    "mtime": 1779147935.0168166,
+    "hash": "c4041393f8144fbdad6c26436aac80b3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/glob.ts": {
+    "mtime": 1779147935.0170946,
+    "hash": "a40a6ea14b58f43be550ad8f760cb242"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/grep.ts": {
+    "mtime": 1779147935.0171845,
+    "hash": "c6365eb8a01d43cf7ac08cd80965c70c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/edit.ts": {
+    "mtime": 1779147935.017012,
+    "hash": "5f5a30426896e3924c05cc2338377093"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/bash.ts": {
+    "mtime": 1779147935.0168998,
+    "hash": "fa14b574918a87e5a15c7f2cd74df5b1"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/index.ts": {
+    "mtime": 1779147935.0172484,
+    "hash": "70d51859e8152599d9998dcbecba423a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/src/tools/write.ts": {
+    "mtime": 1779147935.017388,
+    "hash": "f79bac7c8baf70a6385093eca67f7103"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/README.md": {
+    "mtime": 1779147935.0147092,
+    "hash": "290a0166281e66734f44609fb928cf72"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/README_CN.md": {
+    "mtime": 1779147935.0148234,
+    "hash": "49d5b9ef90ed3778d3cef16c104620a5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/docs/LEARNING_GUIDE.md": {
+    "mtime": 1779147935.0150452,
+    "hash": "e2e434701b8a1eec42260ad7cf5c5902"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/docs/LEARNING_GUIDE_CN.md": {
+    "mtime": 1779147935.015224,
+    "hash": "45415d8a0786954e0b8245c32de55ff7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/nano-claude/nano-claude.png": {
+    "mtime": 1779147935.0153196,
+    "hash": "2a99013da45faa9a41e24b1912c38ba6"
+  }
+}

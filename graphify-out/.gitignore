@@ -1,0 +1,18 @@
+# Machine-specific paths resolved per-clone by /graphify Step 1.
+# Safe to delete; regenerated on next run.
+**/.graphify_python
+**/.graphify_root
+
+# Temp pipeline files (should already be cleaned by Step 9, but belt-and-suspenders).
+**/.graphify_detect.json
+**/.graphify_extract.json
+**/.graphify_ast.json
+**/.graphify_semantic.json
+**/.graphify_semantic_new.json
+**/.graphify_cached.json
+**/.graphify_uncached.txt
+**/.graphify_analysis.json
+**/.graphify_chunk_*.json
+**/.chunks.json
+**/.needs_update
+**/.graphify_old.json

@@ -1,0 +1,362 @@
+{
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/brainstorm-server/ws-protocol.test.js": {
+    "mtime": 1779147913.6938183,
+    "hash": "1eeaae5f80f68147e8cd88bcd84247eb"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/brainstorm-server/server.test.js": {
+    "mtime": 1779147913.6936421,
+    "hash": "59e979f7612e09ce9ffc0c5bddbf6089"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/opencode/test-bootstrap-caching.mjs": {
+    "mtime": 1779147913.696737,
+    "hash": "e9b84a5fe8358f98eb63d03a3b10cb6d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/hooks/session-start": {
+    "mtime": 1779147913.6872818,
+    "hash": "77858b3b0573e35e847932da16722cda"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/condition-based-waiting-example.ts": {
+    "mtime": 1779147913.6905172,
+    "hash": "8e502a8c1e9c7de15967202615d241d5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/brainstorming/scripts/helper.js": {
+    "mtime": 1779147913.688204,
+    "hash": "cef288b6b4543910ffc7826c3a036a55"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-skills/render-graphs.js": {
+    "mtime": 1779147913.6932452,
+    "hash": "e9d8be9caa34d327cac6f746f947cee0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/CODE_OF_CONDUCT.md": {
+    "mtime": 1779147913.684394,
+    "hash": "da1204c8006d4bd6c8be5b1852c73aaf"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/RELEASE-NOTES.md": {
+    "mtime": 1779147913.6848161,
+    "hash": "79ff09148df05b32fe940c32b7878b64"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/README.md": {
+    "mtime": 1779147913.6846566,
+    "hash": "02d8a738eb0eb4e46c701338afd2c1a5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/GEMINI.md": {
+    "mtime": 1779147913.6844714,
+    "hash": "230c5bf044db5f542711b1c6745e3505"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/AGENTS.md": {
+    "mtime": 1779147913.6842482,
+    "hash": "b4bc2abbb3c24de1ea51af6b447d678b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/CLAUDE.md": {
+    "mtime": 1779147913.6842482,
+    "hash": "b4bc2abbb3c24de1ea51af6b447d678b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/claude-code/README.md": {
+    "mtime": 1779147913.6940238,
+    "hash": "9dd5de9704dcd238373acde5c7b7d2ad"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/i-know-what-sdd-means.txt": {
+    "mtime": 1779147913.6955018,
+    "hash": "81f1bbf0e9672d38b2a6e3640593c6ac"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/skip-formalities.txt": {
+    "mtime": 1779147913.6956966,
+    "hash": "f1bdf6c0abb22430311866aae5542f87"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/use-systematic-debugging.txt": {
+    "mtime": 1779147913.6958208,
+    "hash": "8fbb291006a51667dd2e437b8fcccc16"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/mid-conversation-execute-plan.txt": {
+    "mtime": 1779147913.6955667,
+    "hash": "3746f804cd316923020a26bff4e964b3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/subagent-driven-development-please.txt": {
+    "mtime": 1779147913.695761,
+    "hash": "97befcdbfdbf6b981e4a1cae46f1a4f7"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/please-use-brainstorming.txt": {
+    "mtime": 1779147913.6956294,
+    "hash": "8b070a03a6714d4bd440105c11aeca49"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/claude-suggested-it.txt": {
+    "mtime": 1779147913.6954281,
+    "hash": "7e09e20f1c5c42290b9381668110cd4b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/after-planning-flow.txt": {
+    "mtime": 1779147913.6953542,
+    "hash": "40823205486d865d64fb1af1006f2fa0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/explicit-skill-requests/prompts/action-oriented.txt": {
+    "mtime": 1779147913.6952863,
+    "hash": "3629a1f492bdb192f39eb6bb9214fb54"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/skill-triggering/prompts/test-driven-development.txt": {
+    "mtime": 1779147913.6975274,
+    "hash": "0c15df1f405db77e332622c100a2047c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/skill-triggering/prompts/dispatching-parallel-agents.txt": {
+    "mtime": 1779147913.697185,
+    "hash": "e1b75267d2160d6aa290345797399426"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/skill-triggering/prompts/requesting-code-review.txt": {
+    "mtime": 1779147913.6973956,
+    "hash": "fd6dfe7fce7de8e570e6cde1757a0272"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/skill-triggering/prompts/systematic-debugging.txt": {
+    "mtime": 1779147913.6974654,
+    "hash": "cfc5b0dc592c4b3b56bb238fedc62d44"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/skill-triggering/prompts/writing-plans.txt": {
+    "mtime": 1779147913.6976063,
+    "hash": "c4c20b75e8913ad92c5475ca3411b286"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/skill-triggering/prompts/executing-plans.txt": {
+    "mtime": 1779147913.6973271,
+    "hash": "d4344f9b826e21e1335c420043378f35"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/subagent-driven-dev/go-fractals/plan.md": {
+    "mtime": 1779147913.6979632,
+    "hash": "c2e40ff8c0461f711bd78a84594bed5b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/subagent-driven-dev/go-fractals/design.md": {
+    "mtime": 1779147913.6978436,
+    "hash": "b8bddadda3898f3f376db7e302021eb4"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/subagent-driven-dev/svelte-todo/plan.md": {
+    "mtime": 1779147913.6982858,
+    "hash": "900b80a80f76ed87a7d3a9a42e6fc7a5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/tests/subagent-driven-dev/svelte-todo/design.md": {
+    "mtime": 1779147913.6981626,
+    "hash": "8d8d9379c628b29e538324049ed2c502"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/testing.md": {
+    "mtime": 1779147913.6868038,
+    "hash": "eb4e8f91d5a1ec1ede77c5939f53c327"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/README.opencode.md": {
+    "mtime": 1779147913.685248,
+    "hash": "86dc65fd804bfeddd65728bd298259a4"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/plans/2025-11-22-opencode-support-implementation.md": {
+    "mtime": 1779147913.685443,
+    "hash": "583e0b9e5ec9abaf44d6d9aca813bd78"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/plans/2025-11-22-opencode-support-design.md": {
+    "mtime": 1779147913.6853497,
+    "hash": "0d3fdbb784e9c779d121b586dd1fc388"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/plans/2026-01-17-visual-brainstorming.md": {
+    "mtime": 1779147913.6856704,
+    "hash": "cd479bbd44ed558cf55ea3ef4cafd14f"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/plans/2025-11-28-skills-improvements-from-user-feedback.md": {
+    "mtime": 1779147913.6855555,
+    "hash": "fde1c66b332befd7be209b70f3858563"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/windows/polyglot-hooks.md": {
+    "mtime": 1779147913.6869605,
+    "hash": "2fb6d3d3f450aa4a74ec307f73ed5c7b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/plans/2026-01-22-document-review-system.md": {
+    "mtime": 1779147913.685809,
+    "hash": "67adba36e0a07b62c10450b8f982684d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/plans/2026-03-23-codex-app-compatibility.md": {
+    "mtime": 1779147913.6860628,
+    "hash": "ef5012d37e4f78f066ef0e8bf21ea54d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/plans/2026-02-19-visual-brainstorming-refactor.md": {
+    "mtime": 1779147913.6858923,
+    "hash": "73a7beba849def6b7d20a500a1afda64"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/plans/2026-03-11-zero-dep-brainstorm-server.md": {
+    "mtime": 1779147913.6859822,
+    "hash": "bd9edfe0cac4da5662b671247c2b93b2"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/plans/2026-04-06-worktree-rototill.md": {
+    "mtime": 1779147913.6861658,
+    "hash": "67a50b584e6e0fc0f336a663350c041c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/specs/2026-04-06-worktree-rototill-design.md": {
+    "mtime": 1779147913.6867273,
+    "hash": "4636489fd0736b0c6a5dfc13a26d49ec"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/specs/2026-03-23-codex-app-compatibility-design.md": {
+    "mtime": 1779147913.686638,
+    "hash": "89e4dc233e77853d01bec03f5a709567"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/specs/2026-03-11-zero-dep-brainstorm-server-design.md": {
+    "mtime": 1779147913.6865559,
+    "hash": "2a081bda4c6e67b5a7b89eda115472bb"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/specs/2026-02-19-visual-brainstorming-refactor-design.md": {
+    "mtime": 1779147913.6864264,
+    "hash": "f4833089c696e2144b80bacac752a710"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/docs/superpowers/specs/2026-01-22-document-review-system-design.md": {
+    "mtime": 1779147913.68634,
+    "hash": "a6baf8c9eea08844a389b961bb0ef4f7"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/using-git-worktrees/SKILL.md": {
+    "mtime": 1779147913.6915686,
+    "hash": "19c5db98107c897bed0f70415e294015"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/test-driven-development/SKILL.md": {
+    "mtime": 1779147913.6913133,
+    "hash": "b349bbcc136f3f50c45f04d0917bdfc9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/test-driven-development/testing-anti-patterns.md": {
+    "mtime": 1779147913.6913967,
+    "hash": "f4373033bf29f06897cd63c994deb2a7"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/test-pressure-1.md": {
+    "mtime": 1779147913.6910524,
+    "hash": "3d8805e8946e3889d4de0e906af66c47"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/condition-based-waiting.md": {
+    "mtime": 1779147913.690593,
+    "hash": "c64d669f2490aa489c514304c9ad46d3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/test-pressure-2.md": {
+    "mtime": 1779147913.691125,
+    "hash": "237f40dfd0b48af48d239ab3af499f7b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/CREATION-LOG.md": {
+    "mtime": 1779147913.6900852,
+    "hash": "b7ba553678c10cc2234dc9ae193d5347"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/test-academic.md": {
+    "mtime": 1779147913.6909738,
+    "hash": "272ab1d95e755a7ff9479d547168eef9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/defense-in-depth.md": {
+    "mtime": 1779147913.6906705,
+    "hash": "002a0c9e8bee8fc29f85d7a434916977"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/SKILL.md": {
+    "mtime": 1779147913.6903815,
+    "hash": "3a08f3330fce34e3b2104e7d97f64af0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/test-pressure-3.md": {
+    "mtime": 1779147913.6911876,
+    "hash": "42ea1bd281ca8d837f5dd45143762b95"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/systematic-debugging/root-cause-tracing.md": {
+    "mtime": 1779147913.6908977,
+    "hash": "7e96b2fe346c89d4f2300341529178cc"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/using-superpowers/SKILL.md": {
+    "mtime": 1779147913.6917496,
+    "hash": "7e7a8bba2c866b16f5f05351faf2e2c5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/using-superpowers/references/copilot-tools.md": {
+    "mtime": 1779147913.691912,
+    "hash": "d4424fd67d662e17b470d9560e1cd930"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/using-superpowers/references/codex-tools.md": {
+    "mtime": 1779147913.6918483,
+    "hash": "980b647b2c982b5b31cf08b83823a284"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/using-superpowers/references/gemini-tools.md": {
+    "mtime": 1779147913.691972,
+    "hash": "4f93c6d265d412b76c4ecc15c0c2e4b4"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/dispatching-parallel-agents/SKILL.md": {
+    "mtime": 1779147913.6887667,
+    "hash": "af319c60c986d9024c49de78dff43593"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/executing-plans/SKILL.md": {
+    "mtime": 1779147913.6888628,
+    "hash": "63061f08162428574aeccec5d0ef1f26"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/finishing-a-development-branch/SKILL.md": {
+    "mtime": 1779147913.689042,
+    "hash": "e9b367120e56b5d4f438225cd4861caf"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/brainstorming/visual-companion.md": {
+    "mtime": 1779147913.6886122,
+    "hash": "98407f42a43e3c3e3aae399376821e7e"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/brainstorming/SKILL.md": {
+    "mtime": 1779147913.6879873,
+    "hash": "02d86f11c496ece51327cca35491c45c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/brainstorming/spec-document-reviewer-prompt.md": {
+    "mtime": 1779147913.6885335,
+    "hash": "ea74c0f2369ae553c62f36af4ed3d424"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/brainstorming/scripts/frame-template.html": {
+    "mtime": 1779147913.688142,
+    "hash": "b84f721842a76863e21074fb607b03d5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-plans/plan-document-reviewer-prompt.md": {
+    "mtime": 1779147913.6923761,
+    "hash": "dcad0192c2c468107951d7dcb47246a9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-plans/SKILL.md": {
+    "mtime": 1779147913.6923177,
+    "hash": "e9325200b86a2c27c64c4458e7943e34"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/requesting-code-review/code-reviewer.md": {
+    "mtime": 1779147913.6894968,
+    "hash": "11211d21337d0c498660f51edff7323b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/requesting-code-review/SKILL.md": {
+    "mtime": 1779147913.6893563,
+    "hash": "f7d20aeaa4eca81b2617b6c68f3b91b9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/receiving-code-review/SKILL.md": {
+    "mtime": 1779147913.6892245,
+    "hash": "dd0aadbca70fe3bedbd059b730a6edbb"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-skills/testing-skills-with-subagents.md": {
+    "mtime": 1779147913.693323,
+    "hash": "3b7b7942a42cb0450896d4b48cd49ed0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-skills/anthropic-best-practices.md": {
+    "mtime": 1779147913.6926498,
+    "hash": "05c7c66a824d55afc81f3be10dd04750"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-skills/persuasion-principles.md": {
+    "mtime": 1779147913.6931243,
+    "hash": "5f0c22c7c8c3c5e12f255719833c2545"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-skills/SKILL.md": {
+    "mtime": 1779147913.692507,
+    "hash": "87cef13875b60fa4cd3bc5b3e64ec3d3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/writing-skills/examples/CLAUDE_MD_TESTING.md": {
+    "mtime": 1779147913.6928477,
+    "hash": "2980791d97afe0f32c2eb4a6264fb8e6"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/verification-before-completion/SKILL.md": {
+    "mtime": 1779147913.6921408,
+    "hash": "ccf0e58c597adc512d920263562b5391"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/subagent-driven-development/spec-reviewer-prompt.md": {
+    "mtime": 1779147913.6898963,
+    "hash": "ecc20717d0b31a9013ba732f366eba8f"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/subagent-driven-development/implementer-prompt.md": {
+    "mtime": 1779147913.6898315,
+    "hash": "b856c2076801a91854adf094a907de9c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/subagent-driven-development/SKILL.md": {
+    "mtime": 1779147913.6896255,
+    "hash": "da1219128741a51fccc499a613072fc3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/skills/subagent-driven-development/code-quality-reviewer-prompt.md": {
+    "mtime": 1779147913.6897004,
+    "hash": "fc5e2ea930681d4228debaa3714f6ea0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/assets/app-icon.png": {
+    "mtime": 1779147913.6850197,
+    "hash": "104c8fd20089f1d243108b1e052416ce"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/superpowers/assets/superpowers-small.svg": {
+    "mtime": 1779147913.6851015,
+    "hash": "8c39dc35e79dce44358f7602116c33d5"
+  }
+}

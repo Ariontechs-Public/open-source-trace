@@ -1,0 +1,474 @@
+{
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/security-guidance/hooks/security_reminder_hook.py": {
+    "mtime": 1779147921.2156734,
+    "hash": "2b0b1b45927ddd893f9ca30510acb6f9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/core/config_loader.py": {
+    "mtime": 1779147921.2048442,
+    "hash": "4b4024bd183e39dbadab43e725205c72"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/core/__init__.py": {
+    "mtime": 1779147921.204755,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/core/rule_engine.py": {
+    "mtime": 1779147921.2049165,
+    "hash": "67a3c92d8506f9fb37a85914161144a3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/utils/__init__.py": {
+    "mtime": 1779147921.2059145,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/hooks/userpromptsubmit.py": {
+    "mtime": 1779147921.2055764,
+    "hash": "cdf25cd73c2556b98798f59b84ed6dde"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/hooks/stop.py": {
+    "mtime": 1779147921.2055063,
+    "hash": "ae1d0592077fe37894372d27dbfe1a5e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/hooks/__init__.py": {
+    "mtime": 1779147921.2052498,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/hooks/pretooluse.py": {
+    "mtime": 1779147921.205433,
+    "hash": "7e3c39fb82f377e14650fcc7ccf60ae5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/hooks/posttooluse.py": {
+    "mtime": 1779147921.2053773,
+    "hash": "66c0c7ec55a7f74f39739d6a680b7be7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/matchers/__init__.py": {
+    "mtime": 1779147921.205655,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/Script/run_devcontainer_claude_code.ps1": {
+    "mtime": 1779147921.1737225,
+    "hash": "1265678ab934d704f0d361e0af77086f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/examples/mdm/windows/Set-ClaudeCodePolicy.ps1": {
+    "mtime": 1779147921.1987622,
+    "hash": "1ed8615051319faf2b8dbedbf07ef9c5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/examples/hooks/bash_command_validator_example.py": {
+    "mtime": 1779147921.1981585,
+    "hash": "ca155b85f5b89d6a2ae8b99e74c3b916"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/scripts/auto-close-duplicates.ts": {
+    "mtime": 1779147921.215826,
+    "hash": "5a19dc94554a2e3393563fb22f500ed5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/scripts/sweep.ts": {
+    "mtime": 1779147921.21653,
+    "hash": "6461c8e1647be7768b08fc5cd401759b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/scripts/lifecycle-comment.ts": {
+    "mtime": 1779147921.2163768,
+    "hash": "54b551fbfe5e09d166150a67da99551a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/scripts/issue-lifecycle.ts": {
+    "mtime": 1779147921.2163122,
+    "hash": "b136bdc6efabbd958556fc4a34c6735e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/scripts/backfill-duplicate-comments.ts": {
+    "mtime": 1779147921.2159853,
+    "hash": "4caf748353ec2ab44eced06eed6219b7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/LICENSE.md": {
+    "mtime": 1779147921.1733358,
+    "hash": "1392e660bd6b523434bc236df4854ea3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/CHANGELOG.md": {
+    "mtime": 1779147921.1732233,
+    "hash": "1178ba57bd227e379adac122c6c464e1"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/README.md": {
+    "mtime": 1779147921.173426,
+    "hash": "53a70fd21fb5f8d87da4f75b930ac459"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/SECURITY.md": {
+    "mtime": 1779147921.1734972,
+    "hash": "0a1cd9bbaf0dd925c484b0e062445f27"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/README.md": {
+    "mtime": 1779147921.1996524,
+    "hash": "b87205bf810152f9dc509a33b95c3d2b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/claude-opus-4-5-migration/README.md": {
+    "mtime": 1779147921.2008686,
+    "hash": "fe79ec53ec0f2803a9c620cfcf8b3e26"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md": {
+    "mtime": 1779147921.2010796,
+    "hash": "3f677afce349db4564aaf079c60c2e9c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/references/effort.md": {
+    "mtime": 1779147921.2011933,
+    "hash": "48f15fb7e77b0b03dd979a3c7916985b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/references/prompt-snippets.md": {
+    "mtime": 1779147921.2013438,
+    "hash": "631ddcb6f4416a9bdfe32e9fe9c3a527"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/feature-dev/README.md": {
+    "mtime": 1779147921.2029321,
+    "hash": "36fd0b3ab963d5881f52abb538004c28"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/feature-dev/agents/code-reviewer.md": {
+    "mtime": 1779147921.2032125,
+    "hash": "ef1ff21d60d0b7c1a13b09f5f58d39ca"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/feature-dev/agents/code-explorer.md": {
+    "mtime": 1779147921.2031205,
+    "hash": "551e3ab01edaae2c5e082f42ca63028e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/feature-dev/agents/code-architect.md": {
+    "mtime": 1779147921.2030363,
+    "hash": "6097967bfcb3d45fba6aabdffac9a8ac"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/feature-dev/commands/feature-dev.md": {
+    "mtime": 1779147921.2033646,
+    "hash": "b31209c1841c2491acd037fb19c97b8e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/learning-output-style/README.md": {
+    "mtime": 1779147921.206219,
+    "hash": "46efabfbf5227d0d41a6035000821009"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/code-review/README.md": {
+    "mtime": 1779147921.2016227,
+    "hash": "5f552f2a4956bf6fd5b2980ce2d80ac2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/code-review/commands/code-review.md": {
+    "mtime": 1779147921.201802,
+    "hash": "c0d293e7db1ae202ee82a2f6cefb5a31"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/README.md": {
+    "mtime": 1779147921.2066126,
+    "hash": "923c29fe48842475f33c7d73b11fc740"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/agents/agent-creator.md": {
+    "mtime": 1779147921.2067912,
+    "hash": "3b4d9077170b62cb9c7edba9a97c31e5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/agents/skill-reviewer.md": {
+    "mtime": 1779147921.2070854,
+    "hash": "ba765bb285794bdcc74ff05206f99568"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/agents/plugin-validator.md": {
+    "mtime": 1779147921.2069266,
+    "hash": "bfded605664f88d2291bb27712ac90d6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/commands/create-plugin.md": {
+    "mtime": 1779147921.2072666,
+    "hash": "a50a617de8dfebbf19bf1bccb041b338"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/README.md": {
+    "mtime": 1779147921.2083657,
+    "hash": "baa06aa36e6f6d43d22e4a41ba189384"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/SKILL.md": {
+    "mtime": 1779147921.2084737,
+    "hash": "b50e857550019e0b8e34fc6d2321b13a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/references/plugin-features-reference.md": {
+    "mtime": 1779147921.2094336,
+    "hash": "b2a65e7ebd945dfa9dd5989731c69633"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/references/frontmatter-reference.md": {
+    "mtime": 1779147921.209099,
+    "hash": "acc822f33cbaa12bb626e2b33698d982"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/references/marketplace-considerations.md": {
+    "mtime": 1779147921.2093186,
+    "hash": "e703bf89ddede896e68b730ce8ab4cf3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/references/documentation-patterns.md": {
+    "mtime": 1779147921.2089922,
+    "hash": "7e46fab7b2f7a70f20d6a7225a510df4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/references/advanced-workflows.md": {
+    "mtime": 1779147921.2088594,
+    "hash": "bbee4b7db3b0d322b729d417d4b46b66"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/references/testing-strategies.md": {
+    "mtime": 1779147921.2095332,
+    "hash": "a750696ef7a8becfab019126313dee1c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/references/interactive-commands.md": {
+    "mtime": 1779147921.2092085,
+    "hash": "7214bd1380c47bec00175710522a2a91"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/examples/simple-commands.md": {
+    "mtime": 1779147921.208715,
+    "hash": "3c232950ec488cb4b09870603394d07a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/command-development/examples/plugin-commands.md": {
+    "mtime": 1779147921.2086353,
+    "hash": "b6229d5d71f9ce68c86597cd0c98a3da"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/skill-development/SKILL.md": {
+    "mtime": 1779147921.2132702,
+    "hash": "da2b91f33e2d77be8054cb3cd04a3462"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/skill-development/references/skill-creator-original.md": {
+    "mtime": 1779147921.2133875,
+    "hash": "7d41161e687ce615c0ad9e44f4f8cfd6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-settings/SKILL.md": {
+    "mtime": 1779147921.2116694,
+    "hash": "8b5b52aa18544ea2ec560fc9149e1480"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-settings/references/real-world-examples.md": {
+    "mtime": 1779147921.2121453,
+    "hash": "dc2f436e48eeb215535e19a285b7f48a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-settings/references/parsing-techniques.md": {
+    "mtime": 1779147921.212057,
+    "hash": "1ae1ba7b71ac62a6d722b9ee12dfba2d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-settings/examples/example-settings.md": {
+    "mtime": 1779147921.2118618,
+    "hash": "46fb966631fe3875bbc6fb6ccdefee59"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-settings/examples/create-settings-command.md": {
+    "mtime": 1779147921.211785,
+    "hash": "f7b0733c101ee1366deda39e3bd26a49"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-structure/README.md": {
+    "mtime": 1779147921.2124364,
+    "hash": "bd3b2b82951181ee9f607691780bb628"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-structure/SKILL.md": {
+    "mtime": 1779147921.2125385,
+    "hash": "67a8ea5f7d291d6bc3d24497fd877e71"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-structure/references/component-patterns.md": {
+    "mtime": 1779147921.2130687,
+    "hash": "09bb3b37782cc1e773bc31fa32806345"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-structure/references/manifest-reference.md": {
+    "mtime": 1779147921.2131493,
+    "hash": "8a67c040a91eebd2b13909ac05edb3b0"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-structure/examples/advanced-plugin.md": {
+    "mtime": 1779147921.2126687,
+    "hash": "9b44a64b415fbe6174ea97a5c4b6ac56"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-structure/examples/minimal-plugin.md": {
+    "mtime": 1779147921.2127419,
+    "hash": "a826af386435fab27a725b12cb4f9e2c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/plugin-structure/examples/standard-plugin.md": {
+    "mtime": 1779147921.2129543,
+    "hash": "cd3418188585a32e302e570118058fc3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/hook-development/SKILL.md": {
+    "mtime": 1779147921.2096705,
+    "hash": "c847080190bbbe7226ab23e00fa7ed89"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/hook-development/references/migration.md": {
+    "mtime": 1779147921.2101307,
+    "hash": "8fd84c7ddf2bdb6e94031262ea30cbd8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/hook-development/references/patterns.md": {
+    "mtime": 1779147921.2102938,
+    "hash": "185c7fc37342cec587238de01d2f7606"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/hook-development/references/advanced.md": {
+    "mtime": 1779147921.210035,
+    "hash": "305687b2f85a90e1fd25f614f89f14d7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/hook-development/scripts/README.md": {
+    "mtime": 1779147921.2104077,
+    "hash": "985818824fb010bef660337052519262"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/mcp-integration/SKILL.md": {
+    "mtime": 1779147921.2109656,
+    "hash": "bd191bc9925be251ed0a483c8ed30147"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/mcp-integration/references/authentication.md": {
+    "mtime": 1779147921.211354,
+    "hash": "9dd0ce81fb200e78729b74fe0870e33f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/mcp-integration/references/server-types.md": {
+    "mtime": 1779147921.2114499,
+    "hash": "fc4ceebd9dafb258edcc7fbb2b7e79f4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/mcp-integration/references/tool-usage.md": {
+    "mtime": 1779147921.2115378,
+    "hash": "6dd4d592cb2785e55ff027968da6ee6d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/agent-development/SKILL.md": {
+    "mtime": 1779147921.2074637,
+    "hash": "0d4c1931b532db4a113f0461647889e4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/agent-development/references/system-prompt-design.md": {
+    "mtime": 1779147921.2079113,
+    "hash": "fd63a877ad5a04b10e2c49263cbf2d39"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/agent-development/references/triggering-examples.md": {
+    "mtime": 1779147921.2079916,
+    "hash": "17b4b3eb6da6d74b9a914a0c61e0bd56"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/agent-development/references/agent-creation-system-prompt.md": {
+    "mtime": 1779147921.2078292,
+    "hash": "b98e7be7cc062642f44a6db5f691d3bd"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/agent-development/examples/agent-creation-prompt.md": {
+    "mtime": 1779147921.2076037,
+    "hash": "c00c15471175a22b7b579d708ae6ff26"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/plugin-dev/skills/agent-development/examples/complete-agent-examples.md": {
+    "mtime": 1779147921.207709,
+    "hash": "b907ef4e77ea4f1ad2471e04b48ea467"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/README.md": {
+    "mtime": 1779147921.2136586,
+    "hash": "b65b746c5e5d23833e598b168db5d007"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/agents/code-reviewer.md": {
+    "mtime": 1779147921.213748,
+    "hash": "66504c965f3d5d06e9bec3dcd217d46f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/agents/silent-failure-hunter.md": {
+    "mtime": 1779147921.2142882,
+    "hash": "886a88c51d6b39863a0add9abc9be407"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/agents/code-simplifier.md": {
+    "mtime": 1779147921.213875,
+    "hash": "a29cb4086ca7f7579be5f05cf72a937f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/agents/comment-analyzer.md": {
+    "mtime": 1779147921.2140093,
+    "hash": "7960118a8cffd5e63a26a64600d0a134"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/agents/pr-test-analyzer.md": {
+    "mtime": 1779147921.2141478,
+    "hash": "f05ffabc3cdbd68517456a1cff7e67b1"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/agents/type-design-analyzer.md": {
+    "mtime": 1779147921.2144167,
+    "hash": "66ebddb6316c5fd31d375dc83b70a50d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/pr-review-toolkit/commands/review-pr.md": {
+    "mtime": 1779147921.2145786,
+    "hash": "d879200c0e369efad0d084db39c09114"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/ralph-wiggum/README.md": {
+    "mtime": 1779147921.2148297,
+    "hash": "100fc12471b36e30ca4c6b19a0c640f2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/ralph-wiggum/commands/help.md": {
+    "mtime": 1779147921.2149875,
+    "hash": "f45be8ae8ae0e532e016c885a32f7e73"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/ralph-wiggum/commands/cancel-ralph.md": {
+    "mtime": 1779147921.2149246,
+    "hash": "8ca6cd694ebbadd7a1a120e4885a5397"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/ralph-wiggum/commands/ralph-loop.md": {
+    "mtime": 1779147921.2150438,
+    "hash": "520a59f0bd0634d5a793b052a424751f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/frontend-design/README.md": {
+    "mtime": 1779147921.2036111,
+    "hash": "2fd3c6e9ecda1f5a78072a2528c9b0ff"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/frontend-design/skills/frontend-design/SKILL.md": {
+    "mtime": 1779147921.2038093,
+    "hash": "5c392562ec1cf5ffa6b9d2319375373f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/agent-sdk-dev/README.md": {
+    "mtime": 1779147921.200077,
+    "hash": "d9f6128d5ce5c98ec3541d3ab2f6b5dc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/agent-sdk-dev/agents/agent-sdk-verifier-ts.md": {
+    "mtime": 1779147921.2004528,
+    "hash": "cd40efa2e8bcffc83aa4bb0fd48f6049"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/agent-sdk-dev/agents/agent-sdk-verifier-py.md": {
+    "mtime": 1779147921.2002945,
+    "hash": "72af5be65ab47d6329d4dca7fd7c55c6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/agent-sdk-dev/commands/new-sdk-app.md": {
+    "mtime": 1779147921.2006447,
+    "hash": "9498852f131d18627a45b287eb672e07"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/explanatory-output-style/README.md": {
+    "mtime": 1779147921.2024934,
+    "hash": "186904d9cddc8c1ae0c002d8292b5fce"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/commit-commands/README.md": {
+    "mtime": 1779147921.2020693,
+    "hash": "00ae2806c44c72b5add5f5a5e3385f61"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/commit-commands/commands/commit-push-pr.md": {
+    "mtime": 1779147921.202224,
+    "hash": "ade7c8ed8a98250e9e6aafee61f115d7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/commit-commands/commands/clean_gone.md": {
+    "mtime": 1779147921.2021613,
+    "hash": "54b7b2faca20460335b9b21d1869a5e9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/commit-commands/commands/commit.md": {
+    "mtime": 1779147921.202278,
+    "hash": "6fa3c54cca186f6b4512407be5223992"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/README.md": {
+    "mtime": 1779147921.2041173,
+    "hash": "5ea347c8ece6dfce3c1adebaee94f279"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/agents/conversation-analyzer.md": {
+    "mtime": 1779147921.204271,
+    "hash": "9d27b67ebe627b86cbdbe8bef5b65131"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/examples/dangerous-rm.local.md": {
+    "mtime": 1779147921.2050772,
+    "hash": "7833ec1f105367883e3e1f0f543ddb46"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/examples/sensitive-files-warning.local.md": {
+    "mtime": 1779147921.2051995,
+    "hash": "bf7545bf228b1f0139160dc426c1b019"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/examples/require-tests-stop.local.md": {
+    "mtime": 1779147921.2051344,
+    "hash": "7019a98e34d66ffa89caf5133c96dfef"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/examples/console-log-warning.local.md": {
+    "mtime": 1779147921.2050188,
+    "hash": "350296eb191db5ede83f699292e9aa18"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/commands/help.md": {
+    "mtime": 1779147921.204501,
+    "hash": "77a0861d36f8f4e7c9d302644308e1de"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/commands/list.md": {
+    "mtime": 1779147921.204694,
+    "hash": "2ab657430eda98d441c2231e88d08082"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/commands/configure.md": {
+    "mtime": 1779147921.2043655,
+    "hash": "07afbc286c692d6ff3a44a949c747fe3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/commands/hookify.md": {
+    "mtime": 1779147921.2046278,
+    "hash": "6091e9a07803f6548f53764e17185f85"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/plugins/hookify/skills/writing-rules/SKILL.md": {
+    "mtime": 1779147921.2058375,
+    "hash": "04b36543f7f81f8d2e1d366c7b09d07a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/examples/mdm/README.md": {
+    "mtime": 1779147921.1982784,
+    "hash": "62f5f7c292b4302e3b1f9d81faad4e94"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/examples/settings/README.md": {
+    "mtime": 1779147921.1989906,
+    "hash": "3ec1730fd3d4d3030e318714047b0bd7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claude-code/demo.gif": {
+    "mtime": 1779147921.196479,
+    "hash": "9d87302112a332730af3b090c3bb63fe"
+  }
+}
