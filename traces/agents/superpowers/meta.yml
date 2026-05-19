@@ -17,6 +17,11 @@ learned:
   - "Process skills (brainstorming, debugging, TDD) explicitly take priority over implementation skills."
   - "DOT (graphviz) diagrams embedded inline in SKILL.md are parsed by the model as flowcharts — surprisingly effective for procedural skills."
   - "HARD-GATE blocks (e.g., 'no implementation until design approved') are simple textual contracts the model actually respects."
+  - "7-step pipeline is the explicit spine: brainstorm → worktree → plan → SDD → TDD → review → finish. Graph-confirmed as the highest-cohesion hyperedge."
+  - "Two-stage code review decomposed: spec compliance pass then code-quality pass — both run as subagents inside SDD."
+  - "Cross-harness portability is a first-class concern: same skills work on Claude Code, Codex, Copilot, Gemini, OpenCode via per-harness tool-name mapping references."
+  - "AGENTS.md ships an acceptance test ('build a React todo list') and cites a 94% PR-rejection rate — data-driven contributor gate, not just guidelines."
+  - "TDD-for-documentation: the writing-skills skill applies red/green/refactor to skill prose itself."
 related:
   - "[[gstack]]"
   - "[[claude-code]]"
