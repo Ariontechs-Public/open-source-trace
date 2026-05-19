@@ -19,6 +19,12 @@ learned:
   - "Smart conversation compaction (v5) is treated as its own discrete milestone in ~130 LOC — not bundled into the chat loop."
   - "Sub-agent (v7) is just the 7th tool, not a separate dispatch system — orchestration primitive in ~150 LOC."
   - "Readline UI vs Claude Code's React+Ink: ergonomically worse but cuts dependencies dramatically. Trade visible."
+  - "System prompt is a plain concatenation, not a template: CORE_PROMPT + env + git + multi-level CLAUDE.md + persistent memories. Five sources, ordered, no Jinja."
+  - "Sub-agent security boundary is a literal whitelist (Read/Glob/Grep only) — permissions-as-architecture, not a runtime policy engine."
+  - "Sessions are persisted as the raw API message array on disk — no schema, no parsing on resume."
+  - "Two-pass markdown rendering: stream raw text into terminal, then ANSI-erase and re-render with markdown formatting. Avoids a streaming-markdown parser entirely. Graph cohesion 1.0."
+  - "Permission philosophy: confirmation, not prevention — don't block dangerous actions, make them an explicit user choice. classifyBashRisk() regex-matches DESTRUCTIVE_PATTERNS / WRITE_PATTERNS; everything else is 'safe'."
+  - "Compaction trigger: 75% of 200K context = ~150K tokens. Algorithm: keep last 2 messages, summarize the rest into an acknowledged summary message."
 related:
   - "[[claude-code]]"
   - "[[opencode]]"
