@@ -1,0 +1,526 @@
+{
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/tools/tests/path_scope_enforcement.rs": {
+    "mtime": 1779158506.7020276,
+    "hash": "c200f705429a9c8c1b435d21e35815ec"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/tools/src/lane_completion.rs": {
+    "mtime": 1779158506.7013197,
+    "hash": "dfa7e13bce1f7ef31a241b6e72522512"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/tools/src/lib.rs": {
+    "mtime": 1779158506.7018082,
+    "hash": "200a37688de5e1d59fce710b0af3f9d9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/tools/src/pdf_extract.rs": {
+    "mtime": 1779158506.7019064,
+    "hash": "3e64d021e55c9f6fcf93895655365756"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/plugins/src/lib.rs": {
+    "mtime": 1779158506.6927357,
+    "hash": "e039b65fa7e1a61720ef1b5945cbe9ff"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/plugins/src/hooks.rs": {
+    "mtime": 1779158506.6925824,
+    "hash": "4e352b6cff8521f9ff11e6537729bc31"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/plugins/src/test_isolation.rs": {
+    "mtime": 1779158506.692792,
+    "hash": "9066a749b0f692c3c83521cafa09e895"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/compat-harness/src/lib.rs": {
+    "mtime": 1779158506.691663,
+    "hash": "afeb7bd6629d0b1e7d204110006b4a9d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/mock-anthropic-service/src/lib.rs": {
+    "mtime": 1779158506.6918583,
+    "hash": "c80c33a7cd92df4515ac6eaf433d9bdd"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/mock-anthropic-service/src/main.rs": {
+    "mtime": 1779158506.6919174,
+    "hash": "5e00d966776b073f2830284535f5dfed"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/tests/g004_conformance.rs": {
+    "mtime": 1779158506.6984868,
+    "hash": "923e2211ae3f1efea0bad2884e716e10"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/tests/integration_tests.rs": {
+    "mtime": 1779158506.6986184,
+    "hash": "bc971f1914e23b8e0e2a30bb04aa96f8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/file_ops.rs": {
+    "mtime": 1779158506.6939554,
+    "hash": "18fae04b46e36dab9858878e06ac6180"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/compact.rs": {
+    "mtime": 1779158506.6934783,
+    "hash": "9806b44f13b3024e46fe64d2aa6d69c9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/session.rs": {
+    "mtime": 1779158506.6966696,
+    "hash": "154af2214c9bcbfbd9be65fdb9b1eddd"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/bash_validation.rs": {
+    "mtime": 1779158506.6932344,
+    "hash": "ab56b75b1232107434c2dff4ea70dfe8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/green_contract.rs": {
+    "mtime": 1779158506.6942718,
+    "hash": "655806dcd4e1c6532a8b87631a20e66a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/sse.rs": {
+    "mtime": 1779158506.6968844,
+    "hash": "698cc09af015ac1a16ce9869af214f53"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/mcp_stdio.rs": {
+    "mtime": 1779158506.6953952,
+    "hash": "6bf82cf0cce8eaa02a6995c381c858a1"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/g004_conformance.rs": {
+    "mtime": 1779158506.694076,
+    "hash": "1d79ef9bed28b5e9daabf69ce3d9617c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/conversation.rs": {
+    "mtime": 1779158506.693846,
+    "hash": "eab7d5a72e5744ea7b3ca493a502b6aa"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/remote.rs": {
+    "mtime": 1779158506.69633,
+    "hash": "3926daedcbabad2892b1e60e80f3346c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/stale_base.rs": {
+    "mtime": 1779158506.696999,
+    "hash": "d901077799de662cbabbe5e128ae423f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/bash.rs": {
+    "mtime": 1779158506.69314,
+    "hash": "5d5e665c185bcc260aaa25c1ad2c06f7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/mcp_lifecycle_hardened.rs": {
+    "mtime": 1779158506.6951234,
+    "hash": "9d470c2b4ba382323a12a95dee7d7fc0"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/config.rs": {
+    "mtime": 1779158506.6936135,
+    "hash": "c0545cd3de55523f964ec5b13bddbd7a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/stale_branch.rs": {
+    "mtime": 1779158506.6971097,
+    "hash": "2dfe117dbf85aa24b2ba2a02f5f6f633"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/policy_engine.rs": {
+    "mtime": 1779158506.6959717,
+    "hash": "1ba9aa7481f51f809acc95fcff8a1c9f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/lib.rs": {
+    "mtime": 1779158506.6947422,
+    "hash": "dd2c2a603f4645a8de7dd9bbf2010dcc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/trust_resolver.rs": {
+    "mtime": 1779158506.6978831,
+    "hash": "04ce0a98d126095347d08ffb6396faf5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/task_registry.rs": {
+    "mtime": 1779158506.6974251,
+    "hash": "286fdb52bad02fa3ec55da02dde1bb2d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/plugin_lifecycle.rs": {
+    "mtime": 1779158506.695866,
+    "hash": "4832f2e4a0f68958644ed86182a7c52a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/bootstrap.rs": {
+    "mtime": 1779158506.6933055,
+    "hash": "b73d50e081a84b3560c99011aca5eb8a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/lane_events.rs": {
+    "mtime": 1779158506.694632,
+    "hash": "13f12734edf19dc0aa45dab3347dbaab"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/hooks.rs": {
+    "mtime": 1779158506.6943963,
+    "hash": "b32bb7d924256dde7e6b1b3334857d86"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/git_context.rs": {
+    "mtime": 1779158506.6941729,
+    "hash": "ca12c02b59efda2403ab5398bc41167a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/permission_enforcer.rs": {
+    "mtime": 1779158506.6956875,
+    "hash": "5f83a0585af34d14056548485edfb78b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/usage.rs": {
+    "mtime": 1779158506.6979907,
+    "hash": "81741977ec8f9452c0e888b35a830aa7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/json.rs": {
+    "mtime": 1779158506.694495,
+    "hash": "e3100f5e5a6c2a858d89821f74053f53"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/team_cron_registry.rs": {
+    "mtime": 1779158506.6977806,
+    "hash": "3c036290e1b9b264cb5cc97cf9885602"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/mcp_server.rs": {
+    "mtime": 1779158506.6952457,
+    "hash": "5ce2c5901f0bb3504a074a7dfbd629bb"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/oauth.rs": {
+    "mtime": 1779158506.6955917,
+    "hash": "4bc381d4b89bb034354f7eaf99674939"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/lsp_client.rs": {
+    "mtime": 1779158506.6948304,
+    "hash": "07fdd834e4c400affb652d1171b3ce58"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/summary_compression.rs": {
+    "mtime": 1779158506.6972067,
+    "hash": "df774e94552646295e100c88b982e2f3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/prompt.rs": {
+    "mtime": 1779158506.6960874,
+    "hash": "e74f9e531db84b2d98a2f9ae725723e1"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/approval_tokens.rs": {
+    "mtime": 1779158506.6930206,
+    "hash": "8cec0f430170effa190b8a963192b51a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/task_packet.rs": {
+    "mtime": 1779158506.6973357,
+    "hash": "7b804302493b645e47a4c34585efe3ff"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/session_control.rs": {
+    "mtime": 1779158506.6967876,
+    "hash": "798d23f1491e064110be896d41af828d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/recovery_recipes.rs": {
+    "mtime": 1779158506.696195,
+    "hash": "ff375766819321c407ee540879752040"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/branch_lock.rs": {
+    "mtime": 1779158506.6933806,
+    "hash": "672696546aaac019b4f81a1b5a2d9e9b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/mcp_tool_bridge.rs": {
+    "mtime": 1779158506.695499,
+    "hash": "924dcea07dfb72a8c77374a7c9dfa9da"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/worker_boot.rs": {
+    "mtime": 1779158506.6981359,
+    "hash": "fab69b89239f4c287ceb3f22e26e9f2d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/config_validate.rs": {
+    "mtime": 1779158506.6937177,
+    "hash": "e526eb83e5bfee1ede3b1e94e685f1e4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/mcp_client.rs": {
+    "mtime": 1779158506.6950386,
+    "hash": "5a62d53dcf768a12367763f4c532a2ab"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/permissions.rs": {
+    "mtime": 1779158506.695771,
+    "hash": "4167f5dafbe1c612ec1f70fddbb5e726"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/sandbox.rs": {
+    "mtime": 1779158506.6965466,
+    "hash": "fb2d0cd2ff31f5d5d1482dd9091896af"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/mcp.rs": {
+    "mtime": 1779158506.6949399,
+    "hash": "b36109d71f995ba4e53d3809dcb8005d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/src/report_schema.rs": {
+    "mtime": 1779158506.6964211,
+    "hash": "6ba734c01117d8a12479991b891cdf9d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/build.rs": {
+    "mtime": 1779158506.6989658,
+    "hash": "25a40074d39c4ed9c771971777f2d9de"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/tests/compact_repl_panic.rs": {
+    "mtime": 1779158506.700368,
+    "hash": "5759e1843162eb3d70164270af113640"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/tests/output_format_contract.rs": {
+    "mtime": 1779158506.7006412,
+    "hash": "ad305431b3a7e866e8913bd54a882bb6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/tests/mock_parity_harness.rs": {
+    "mtime": 1779158506.7004743,
+    "hash": "e9bfaf6db57397ffd3c90a7778d59814"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/tests/resume_slash_commands.rs": {
+    "mtime": 1779158506.7007344,
+    "hash": "36d2908879072a8f778a2898c58f4728"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/tests/cli_flags_and_config_defaults.rs": {
+    "mtime": 1779158506.7001746,
+    "hash": "0c509113a92da755dd9b1363ccb5ac09"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/tests/compact_output.rs": {
+    "mtime": 1779158506.7002773,
+    "hash": "ac3beb2e5529dc9adb3efd8e443f7cbc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/src/render.rs": {
+    "mtime": 1779158506.699998,
+    "hash": "46ee11218463afd62936574600eccee0"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/src/main.rs": {
+    "mtime": 1779158506.6998587,
+    "hash": "b6283d1ee663675cc6a72b7dd5d60516"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/src/init.rs": {
+    "mtime": 1779158506.699109,
+    "hash": "4127f01a94fbc0f05f5739b7574cd40e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/rusty-claude-cli/src/input.rs": {
+    "mtime": 1779158506.6992135,
+    "hash": "035b65693a2d15bf5514dac3ea8df96b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/tests/openai_compat_integration.rs": {
+    "mtime": 1779158506.691012,
+    "hash": "f0e53fcce5101b2190680ebc472ae2e1"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/tests/client_integration.rs": {
+    "mtime": 1779158506.6909137,
+    "hash": "6a3082dd60c641991995fd5e8dd30819"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/tests/proxy_integration.rs": {
+    "mtime": 1779158506.691137,
+    "hash": "68ba5a17aca22c2e2eff596d56209bee"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/tests/provider_client_integration.rs": {
+    "mtime": 1779158506.6910725,
+    "hash": "8219d399821ff8526bd8d61d10ad8ecc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/benches/request_building.rs": {
+    "mtime": 1779158506.6897867,
+    "hash": "58cf95dfaa2739e0022b2e5ea781fe40"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/sse.rs": {
+    "mtime": 1779158506.690718,
+    "hash": "5b914825c658de216498420d7c336021"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/types.rs": {
+    "mtime": 1779158506.6907938,
+    "hash": "2d066468ba39041d9067d24a438995de"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/prompt_cache.rs": {
+    "mtime": 1779158506.6902144,
+    "hash": "3889fe5177ea8522d5bc89a79288157c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/client.rs": {
+    "mtime": 1779158506.6899083,
+    "hash": "b784e00f9515850a8203ca9f17146eab"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/error.rs": {
+    "mtime": 1779158506.6899984,
+    "hash": "40a0e0052b247b882b2ca88b90182fab"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/lib.rs": {
+    "mtime": 1779158506.6901412,
+    "hash": "868d49f7f1e6aa30786a4dc1f53d11bb"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/http_client.rs": {
+    "mtime": 1779158506.6900876,
+    "hash": "d8695a0e03fefff0be6e3b4494c2129e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/providers/mod.rs": {
+    "mtime": 1779158506.6904793,
+    "hash": "c0de7555ffa7e47e8a52eb83836e134e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/providers/openai_compat.rs": {
+    "mtime": 1779158506.6906238,
+    "hash": "337ee1db59ccfceb13b50373fc95471c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/api/src/providers/anthropic.rs": {
+    "mtime": 1779158506.690368,
+    "hash": "5c5e025b20bf2ba4b024a663f8e05f46"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/commands/src/lib.rs": {
+    "mtime": 1779158506.6914618,
+    "hash": "69822121d0bc77fe163bb07b31e208ab"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/telemetry/src/lib.rs": {
+    "mtime": 1779158506.701013,
+    "hash": "6d99c925fe837be48ab83115f3c638a0"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/scripts/run_mock_parity_diff.py": {
+    "mtime": 1779158506.702212,
+    "hash": "30d645172f8fb37aee714ecbd75662bc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/tests/test_porting_workspace.py": {
+    "mtime": 1779158506.709518,
+    "hash": "0a8f3c12dafbff273b72558509ecdd23"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/tests/test_security_scope.py": {
+    "mtime": 1779158506.7096033,
+    "hash": "6633f198156d959552f4ff2b748e1c2c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/scripts/generate_cc2_board.py": {
+    "mtime": 1779158506.7025237,
+    "hash": "5ac3f1c9e8e7b555895a753a62d86915"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/scripts/validate_cc2_board.py": {
+    "mtime": 1779158506.7026086,
+    "hash": "98ecb08ea693952af9c46b3eb6e4f4d6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/scripts/cc2_board.py": {
+    "mtime": 1779158506.7023516,
+    "hash": "a3dd6b57646a305d9acb36ea6b3e1234"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/CODE_OF_CONDUCT.md": {
+    "mtime": 1779158506.6725402,
+    "hash": "d390e80f397429142a886722c229bc9e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/USAGE.md": {
+    "mtime": 1779158506.674296,
+    "hash": "6ec52d2197dc424014562fd8f46aa451"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/progress.txt": {
+    "mtime": 1779158506.6859515,
+    "hash": "deb1fadcf585066d2ea2417a2ffd2ea4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/README.md": {
+    "mtime": 1779158506.6729164,
+    "hash": "e6b5cae66d7cb30cdecb9a98b557502f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/SUPPORT.md": {
+    "mtime": 1779158506.6742074,
+    "hash": "f24529a195173a86455e03c08b85c485"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/PARITY.md": {
+    "mtime": 1779158506.67278,
+    "hash": "87a031b39082f9c2dc960dda16bc5676"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/CONTRIBUTING.md": {
+    "mtime": 1779158506.6725895,
+    "hash": "2da8094cd78ee1ad7355baf4e901acdf"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/PHILOSOPHY.md": {
+    "mtime": 1779158506.6728318,
+    "hash": "82868fc71a7b1b869c59df5f33fb7e70"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/CLAUDE.md": {
+    "mtime": 1779158506.672494,
+    "hash": "e39f2a29009c20573b36d4cf37916ea5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/SECURITY.md": {
+    "mtime": 1779158506.6741574,
+    "hash": "bf0ecdf3f74388e40a0a6d9eb093e2dc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/USAGE.md": {
+    "mtime": 1779158506.6895194,
+    "hash": "cf54008aa27b1b47d16ae9fa074507a3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/README.md": {
+    "mtime": 1779158506.6893435,
+    "hash": "9b55598543100ffa7128c553aa7ce953"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/PARITY.md": {
+    "mtime": 1779158506.689262,
+    "hash": "a84c8932eb66b05243571bfb2bef8ad1"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/MOCK_PARITY_HARNESS.md": {
+    "mtime": 1779158506.6891613,
+    "hash": "4e8927409b128390c388eb3bcd38ab84"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/TUI-ENHANCEMENT-PLAN.md": {
+    "mtime": 1779158506.6894565,
+    "hash": "a121068125686e333593018280be131c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/CLAUDE.md": {
+    "mtime": 1779158506.688919,
+    "hash": "1ca65a1d37b11693a29ff5df249f6cb3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/rust/crates/runtime/tests/fixtures/report_schema_v1/README.md": {
+    "mtime": 1779158506.6984124,
+    "hash": "ef2f84f15d13f39120585da62f9ef414"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g004-events-reports-contract.md": {
+    "mtime": 1779158506.684507,
+    "hash": "0651b60f8cd97b1577185dab517094dd"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g005-branch-recovery-verification-map.md": {
+    "mtime": 1779158506.6846552,
+    "hash": "8ee5f8928674942c0e18017ed51b60ac"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/roadmap-pr-goals.md": {
+    "mtime": 1779158506.6856337,
+    "hash": "8d9c7ec8b82980a3f648055d185ab11b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g004-events-reports-verification-map.md": {
+    "mtime": 1779158506.6845846,
+    "hash": "a86212da6bc9a7f821a4fffc828e7e64"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/container.md": {
+    "mtime": 1779158506.6840682,
+    "hash": "ca33a8843fd16240cc0dac457356620c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g007-mcp-lifecycle-mapping.md": {
+    "mtime": 1779158506.6847806,
+    "hash": "a1f66dc8ae8492542853a0386c92b185"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g003-boot-session-verification-map.md": {
+    "mtime": 1779158506.6842275,
+    "hash": "6b1583af5f78e9f63dde81c1cf738c52"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g009-windows-docs-release-verification-map.md": {
+    "mtime": 1779158506.684921,
+    "hash": "e4e106ca0529936ddecf2ba72aac997a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/windows-install-release.md": {
+    "mtime": 1779158506.6857023,
+    "hash": "ac2ac6d96bc79ae82ec800479ec3eb91"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g011-ecosystem-ops-ux-verification-map.md": {
+    "mtime": 1779158506.6851969,
+    "hash": "93eb8677d5e152d5603643708a68454f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g006-task-policy-board-verification-map.md": {
+    "mtime": 1779158506.68471,
+    "hash": "3509705f8d08313579d7d804d4a41f03"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/navigation-file-context.md": {
+    "mtime": 1779158506.6853921,
+    "hash": "79784cf2a7b542dfb44b0f98e166c289"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g011-acp-json-rpc-status-contract.md": {
+    "mtime": 1779158506.6851208,
+    "hash": "d5895ce3f972ae65b08d1e311a4c0f52"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g002-security-verification-map.md": {
+    "mtime": 1779158506.6841595,
+    "hash": "fe65230e364b79925e2058f9acd19fc2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/local-openai-compatible-providers.md": {
+    "mtime": 1779158506.6853359,
+    "hash": "c60d8111bc238d893e732527dd8a544b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g012-final-release-readiness-report.md": {
+    "mtime": 1779158506.685267,
+    "hash": "e173f75bff04eb7ffa67271098f9c6e9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/pr-issue-resolution-gate.md": {
+    "mtime": 1779158506.685471,
+    "hash": "34616cf0049c24ba6104b31fdf58b616"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g007-plugin-mcp-verification-map.md": {
+    "mtime": 1779158506.684853,
+    "hash": "2b9856eb8275b426ac2b829b0ce8d37f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/MODEL_COMPATIBILITY.md": {
+    "mtime": 1779158506.6839511,
+    "hash": "15e63dfaa13ebe80b299da6976b4a1b4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g010-session-hygiene-verification-map.md": {
+    "mtime": 1779158506.6850588,
+    "hash": "733f4fb80635a4d87073fe38b7e68046"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/anti-slop-triage.md": {
+    "mtime": 1779158506.6840115,
+    "hash": "efb0b142b2523c2ee63f0ab6fd3e3f5c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/claw-code/docs/g010-clone-disambiguation-metadata.md": {
+    "mtime": 1779158506.6849976,
+    "hash": "d3ec4f0a394eeda95283dcbd03043481"
+  }
+}

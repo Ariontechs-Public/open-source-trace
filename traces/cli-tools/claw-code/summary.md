@@ -37,7 +37,8 @@ I care about the same question this project is publicly testing: **when AI can r
 - The **`.omx/`** and **`.port_sessions/`** dot-dirs at repo root suggest persistent agent state lives in-repo. What's tracked vs gitignored?
 
 ## Map
-- Knowledge graph: *not yet generated* — run `/graphify cli-tools/claw-code` (likely needs subdir scoping; `rust/` + `src/` together may exceed thresholds).
+- Knowledge graph: [`graphify-out/cli-tools/claw-code/`](../../../graphify-out/cli-tools/claw-code/graphify-out/) — 5,029 nodes / 10,870 edges / 246 communities. Scope: rust/ + docs/ + root .md + scripts + tests, **excluding** src/ (Python reference, secondary) and ROADMAP.md (127K-word agent-generated artifact, would dominate). HTML auto-aggregates to 246-community view above the 5000-node threshold.
+- Audit report: [`graphify-out/cli-tools/claw-code/graphify-out/GRAPH_REPORT.md`](../../../graphify-out/cli-tools/claw-code/graphify-out/GRAPH_REPORT.md)
 - Upstream: <https://github.com/ultraworkers/claw-code> · pinned at `f8e1bb7`
 - Key docs in repo: [PHILOSOPHY.md](../../../cli-tools/claw-code/PHILOSOPHY.md) · [PARITY.md](../../../cli-tools/claw-code/PARITY.md) · [ROADMAP.md](../../../cli-tools/claw-code/ROADMAP.md) · `USAGE.md` · `rust/README.md`
 - Related repos (not submodules here, may add later): [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex), [clawhip](https://github.com/Yeachan-Heo/clawhip), [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
