@@ -1,0 +1,28 @@
+# Required
+name: Claw Code
+category: cli-tools
+upstream:
+  url: https://github.com/ultraworkers/claw-code
+  pinned_commit: "f8e1bb7"          # main HEAD as of 2026-05-19; no upstream releases tagged yet
+  license: MIT
+status: tracing
+one_line: "Public demo of autonomous, multi-agent software development: humans direct from Discord, autonomous 'claws' plan / execute / review / retry in parallel. The repo (Rust CLI + Python reference) is the byproduct; the coordination loop is the lesson."
+tags: [multi-agent, agent-coordination, discord-interface, rust, autonomous-development, public-build, claw, ultraworkers]
+added: 2026-05-19
+
+# Optional
+last_traced: 2026-05-19
+learned:
+  - "The repo is intentionally framed as EVIDENCE of a coordination system, not the system itself. PHILOSOPHY.md leads with 'stop staring at the files' — the artifact worth studying is the producer, not the produced."
+  - "Three-part system: OmX (oh-my-codex) as the workflow layer, clawhip as the event/notification router, OmO (oh-my-openagent) as multi-agent coordination. Each is its own repo."
+  - "Notification routing is pushed OUT of the coding agent's context window via clawhip — agents stay focused on implementation; status/delivery happens elsewhere. Deliberate context-economy decision."
+  - "Human interface is Discord, not a terminal. A directive typed from a phone triggers task decomposition, role assignment, parallel work, and push-on-pass — without the human sitting in tmux."
+  - "Role decomposition: Architect, Executor, Reviewer. OmO provides the structure for them to disagree and converge instead of collapse."
+  - "Rust is the canonical implementation (rust/ workspace, `claw` CLI binary); src/ Python is a 'companion/reference' workspace + audit helpers, NOT the primary runtime."
+  - "Parity-harness pattern: PARITY.md tracks Rust-port checkpoint vs Python reference. mock_parity_scenarios.json + MOCK_PARITY_HARNESS.md drive comparison testing."
+  - "First-class `claw doctor` health-check command as the standard post-build sanity entry."
+related:
+  - "[[superpowers]]"
+  - "[[gstack]]"
+  - "[[opencode]]"
+articles: []

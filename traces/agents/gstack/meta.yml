@@ -20,6 +20,6 @@ learned:
   - "Two-line bold release headline + 'numbers that matter' table at the top of every CHANGELOG entry, then itemized below — release notes treated as primary user artifact."
 related:
   - "[[superpowers]]"
-  - "[[claude-code]]"
+  - "[[claw-code]]"
   - "[[opencode]]"
 articles: []

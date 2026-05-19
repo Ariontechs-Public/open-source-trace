@@ -6,7 +6,7 @@ Open-source agentic coding CLI in the Claude Code space. Single-binary install (
 **中文口訣**: Claude Code 之外的 OSS 替代品 — build/plan 雙 agent 一鍵切換，內建多 provider。
 
 ## Why I Care
-Same problem space as [[claude-code]], different design constraints. The interesting reads are where opencode *deliberately diverges*: the explicit build/plan agent split (vs Claude Code's implicit "ask before destructive" pattern), the desktop-app form factor, and the provider abstraction. Provides a clean diff against Anthropic's design choices.
+Same problem space as Claude Code, different design constraints. The interesting reads are where opencode *deliberately diverges*: the explicit build/plan agent split (vs Claude Code's implicit "ask before destructive" pattern), the desktop-app form factor, and the provider abstraction. Provides a clean diff against Anthropic's design choices.
 
 ## Killer Ideas
 - **Two-agent mode toggle (`build` vs `plan`)**, **Tab-switchable**: plan-mode denies edits and confirms bash by default. Surfaces the safety/exploration tradeoff as a *user-visible affordance* instead of a settings dialog or a system-prompt directive.
@@ -27,4 +27,4 @@ Same problem space as [[claude-code]], different design constraints. The interes
 - Knowledge graph: `graphify-out/cli-tools/opencode/` *(not yet generated — run `/graphify cli-tools/opencode`)*
 - Upstream: https://github.com/anomalyco/opencode
 - Docs: https://opencode.ai/docs
-- Compare with: [[claude-code]] (the system being competed with), [[nano-claude]] (minimal reimpl approach to the same problem)
+- Compare with: Claude Code (the system being competed with — Anthropic, not tracked here), [[nano-claude]] (minimal reimpl approach to the same problem)

@@ -26,6 +26,5 @@ learned:
   - "Permission philosophy: confirmation, not prevention — don't block dangerous actions, make them an explicit user choice. classifyBashRisk() regex-matches DESTRUCTIVE_PATTERNS / WRITE_PATTERNS; everything else is 'safe'."
   - "Compaction trigger: 75% of 200K context = ~150K tokens. Algorithm: keep last 2 messages, summarize the rest into an acknowledged summary message."
 related:
-  - "[[claude-code]]"
   - "[[opencode]]"
 articles: []

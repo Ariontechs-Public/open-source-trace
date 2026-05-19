@@ -1,7 +1,7 @@
 # nano-claude
 
 ## TL;DR
-A minimal reimplementation of [[claude-code]] in **~2,000 lines of TypeScript across 19 files** (vs Claude Code's 512,685 LOC across 1,902 files). **7 tools** (Bash, Read, Write, Edit, Glob, Grep, Agent) vs Claude Code's ~50. Node.js + readline UI instead of Bun + React+Ink. Every milestone is a separate git tag (`v0` chatbot → `v8` CLI args), explicitly designed as a *learning artifact* with a dedicated `docs/LEARNING_GUIDE.md` walking through each version. The thesis it proves by construction: **the model IS the agent; code is just a harness that wires tools + context + memory into a streaming API loop**.
+A minimal reimplementation of **Claude Code** in **~2,000 lines of TypeScript across 19 files** (vs Claude Code's 512,685 LOC across 1,902 files). **7 tools** (Bash, Read, Write, Edit, Glob, Grep, Agent) vs Claude Code's ~50. Node.js + readline UI instead of Bun + React+Ink. Every milestone is a separate git tag (`v0` chatbot → `v8` CLI args), explicitly designed as a *learning artifact* with a dedicated `docs/LEARNING_GUIDE.md` walking through each version. The thesis it proves by construction: **the model IS the agent; code is just a harness that wires tools + context + memory into a streaming API loop**.
 
 **中文口訣**: Model 即 agent，code 只是把 tools + context + memory 接到 streaming API 的薄殼；v0 → v8 一版一版疊出來，每個概念都必要、且都能單獨讀懂。
 
@@ -41,7 +41,7 @@ The fastest path to understanding a complex system is a minimal-viable reimpleme
 - Audit report: [`graphify-out/cli-tools/nano-claude/graphify-out/GRAPH_REPORT.md`](../../../graphify-out/cli-tools/nano-claude/graphify-out/GRAPH_REPORT.md)
 - Upstream: <https://github.com/dox012/nano-claude> · pinned at `21ee5c6`
 - Upstream learning guide: [`docs/LEARNING_GUIDE.md`](../../../cli-tools/nano-claude/docs/LEARNING_GUIDE.md) (and `_CN.md` Chinese version)
-- Compare with: [[claude-code]] (the system being minimized), [[opencode]] (different approach to the same problem)
+- Compare with: Claude Code (the system being minimized — Anthropic, not tracked here), [[opencode]] (different approach to the same problem)
 - Deep dives (planned, not yet written):
   - `notes/system-prompt-recipe.md` — trace `buildSystemPrompt()` line-by-line; compare to Claude Code's
   - `notes/v0-to-v8-walkthrough.md` — what's the minimum diff between each version, with `git diff vN..vN+1` excerpts

@@ -19,7 +19,7 @@ learned:
   - "22+ READMEs in maintained translations — community translation surface is treated as a feature."
   - "Default branch is `dev`, not `main` — release discipline distinguishes integration target from publishable releases."
 related:
-  - "[[claude-code]]"
+  - "[[claw-code]]"
   - "[[nano-claude]]"
   - "[[gstack]]"
 articles: []

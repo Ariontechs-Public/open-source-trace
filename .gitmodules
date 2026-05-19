@@ -4,12 +4,12 @@
 [submodule "agents/gstack"]
 	path = agents/gstack
 	url = https://github.com/garrytan/gstack
-[submodule "cli-tools/claude-code"]
-	path = cli-tools/claude-code
-	url = https://github.com/anthropics/claude-code
 [submodule "cli-tools/opencode"]
 	path = cli-tools/opencode
 	url = https://github.com/anomalyco/opencode
 [submodule "cli-tools/nano-claude"]
 	path = cli-tools/nano-claude
 	url = https://github.com/dox012/nano-claude
+[submodule "cli-tools/claw-code"]
+	path = cli-tools/claw-code
+	url = https://github.com/ultraworkers/claw-code
