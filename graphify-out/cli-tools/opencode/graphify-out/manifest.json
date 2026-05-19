@@ -1,0 +1,726 @@
+{
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/data-migration.sql.ts": {
+    "mtime": 1779147933.7788591,
+    "hash": "794861f092cc9efe2c131b7c4856d58a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/node.ts": {
+    "mtime": 1779147933.782424,
+    "hash": "ef4cdfb2215d6542093111382e355c85"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/event-v2-bridge.ts": {
+    "mtime": 1779147933.7799957,
+    "hash": "142ef1297caaa64bef02a7ac991c139a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/temporary.ts": {
+    "mtime": 1779147933.795963,
+    "hash": "e36aa59e999ab696b8d929cfec3fe91c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/data-migration.ts": {
+    "mtime": 1779147933.7789392,
+    "hash": "94c4e1633c8c2d7181508977f89fd0a9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/index.ts": {
+    "mtime": 1779147933.781146,
+    "hash": "57ec0eede8ee5e92269dabf4f6e4adf9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/ide/index.ts": {
+    "mtime": 1779147933.7809455,
+    "hash": "3eba3f7ced2036c672a9bc034b222ab3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/snapshot/index.ts": {
+    "mtime": 1779147933.794967,
+    "hash": "d7481dd552ec12a1c291240aa1cb1050"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/skill/discovery.ts": {
+    "mtime": 1779147933.7946234,
+    "hash": "8dd36669bd45f3049ffaa789f99b5dd7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/skill/index.ts": {
+    "mtime": 1779147933.7947085,
+    "hash": "7a856448ffd67896206d8dc10e4e6e29"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/file/watcher.ts": {
+    "mtime": 1779147933.7804215,
+    "hash": "d1eeef8242b63abdba869c36eba1d658"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/file/ignore.ts": {
+    "mtime": 1779147933.7800925,
+    "hash": "f71e297d5927ec0d28227a892c87675d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/file/protected.ts": {
+    "mtime": 1779147933.7802503,
+    "hash": "ae745c22831ce76d55896f6113e512ea"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/file/ripgrep.ts": {
+    "mtime": 1779147933.7803338,
+    "hash": "92881ab475cf86c6863fa37ad78caa7c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/file/index.ts": {
+    "mtime": 1779147933.7801788,
+    "hash": "61dc7fb3eb9062b4da7de6fe6a1e1130"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/worktree/index.ts": {
+    "mtime": 1779147933.8007305,
+    "hash": "8056ddc3b54d68b5ec975104e9cbc7c7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/meta.ts": {
+    "mtime": 1779147933.7837396,
+    "hash": "90e692df95b844bf3ce3b7ed65b04246"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/install.ts": {
+    "mtime": 1779147933.7835884,
+    "hash": "4c46aa7a0cdf385d03005d633961d776"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/loader.ts": {
+    "mtime": 1779147933.7836666,
+    "hash": "7f05d0500c5464c322826b142d618b9a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/shared.ts": {
+    "mtime": 1779147933.7838068,
+    "hash": "8e80271ea302523060df7dde95654d7b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/digitalocean.ts": {
+    "mtime": 1779147933.783206,
+    "hash": "daa08d085027af22a212dbb279e3fa44"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/cloudflare.ts": {
+    "mtime": 1779147933.7830062,
+    "hash": "e5776ff4031af5c0d0d485213796ec04"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/azure.ts": {
+    "mtime": 1779147933.7829385,
+    "hash": "2ac6e3d0a70d800527465d341d567f07"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/codex.ts": {
+    "mtime": 1779147933.7830892,
+    "hash": "12591613340a32f4477bf56b589b8292"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/index.ts": {
+    "mtime": 1779147933.7835078,
+    "hash": "0dda5dd8f34ac35e02e9df56ebc6d5e6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/github-copilot/copilot.ts": {
+    "mtime": 1779147933.783343,
+    "hash": "550f07a65da2198a2548e75969cb7801"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/plugin/github-copilot/models.ts": {
+    "mtime": 1779147933.7834113,
+    "hash": "12f5ae3fd1a4a0c506c7c6876beac434"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/provider/schema.ts": {
+    "mtime": 1779147933.7849228,
+    "hash": "15c8a74f4c95a9df234154eff0ac9f94"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/provider/model-status.ts": {
+    "mtime": 1779147933.7846992,
+    "hash": "7f98a0bb465bb2fb98be79aec9203bfb"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/provider/transform.ts": {
+    "mtime": 1779147933.785111,
+    "hash": "e2effafca1d7757dd86af9f138c138f9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/provider/provider.ts": {
+    "mtime": 1779147933.7848632,
+    "hash": "90c2f76ad50438c5d1cd31bb458720e0"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/provider/error.ts": {
+    "mtime": 1779147933.7846506,
+    "hash": "97d529d59292ac15067ea12484929c2f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/provider/auth.ts": {
+    "mtime": 1779147933.7845762,
+    "hash": "05bc9f2cc237b13ab8750835e0d5f85b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/bus/global.ts": {
+    "mtime": 1779147933.7591999,
+    "hash": "710fabe7ebefc3c8d656492d6c21b541"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/bus/index.ts": {
+    "mtime": 1779147933.759263,
+    "hash": "4ce2b8036c0a3cee2ab2a2022ecc240f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/bus/bus-event.ts": {
+    "mtime": 1779147933.7591472,
+    "hash": "cd641c999ed9c0b27abfc7d9dc607e37"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/lsp/language.ts": {
+    "mtime": 1779147933.7815642,
+    "hash": "8e12506c7a5c1827e7a7fbd890241224"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/lsp/launch.ts": {
+    "mtime": 1779147933.7816267,
+    "hash": "2939cfc7c664a17dc19a2cf301df0140"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/lsp/lsp.ts": {
+    "mtime": 1779147933.7817035,
+    "hash": "199af8066d7b18b8abef317d4608bac0"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/lsp/diagnostic.ts": {
+    "mtime": 1779147933.781498,
+    "hash": "f3697c994621b5e3bb768790999b3dd8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/lsp/client.ts": {
+    "mtime": 1779147933.781423,
+    "hash": "e90ce30779ceafb9bddbf96dd5314b76"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/lsp/server.ts": {
+    "mtime": 1779147933.7818758,
+    "hash": "b8a134fe0963e2812c86e92f9738d3e9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/agent.ts": {
+    "mtime": 1779147933.7583253,
+    "hash": "06228533f88f53ef87ccda1f7a6cb2b0"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/subagent-permissions.ts": {
+    "mtime": 1779147933.7588258,
+    "hash": "776740ee352ae40449ee1e738702f389"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/mcp/oauth-provider.ts": {
+    "mtime": 1779147933.782353,
+    "hash": "3345a82e626846312e67fba3ad0b5eee"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/mcp/oauth-callback.ts": {
+    "mtime": 1779147933.7822814,
+    "hash": "165b4b27fdbac9093e93b9ea6cdafbe4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/mcp/index.ts": {
+    "mtime": 1779147933.782201,
+    "hash": "a01c55a08559d1b42c9208da33d49cf6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/mcp/auth.ts": {
+    "mtime": 1779147933.7820709,
+    "hash": "e9c8c83b9f00ed6e3a86cd0232c99168"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/question/schema.ts": {
+    "mtime": 1779147933.7856987,
+    "hash": "0a9f34316b8a4159e2dc45814aaa6bda"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/question/index.ts": {
+    "mtime": 1779147933.7856483,
+    "hash": "f7f06c788c62ab9afbff3e7af73e8057"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/schema.ts": {
+    "mtime": 1779147933.784383,
+    "hash": "f8ca6ef9b04cf2c696b62dc1cf8b2810"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/project.ts": {
+    "mtime": 1779147933.784328,
+    "hash": "a3188f95ac1533b866ce7615d12db8b3"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/bootstrap-service.ts": {
+    "mtime": 1779147933.7838976,
+    "hash": "76d76b1247a6ee4cf674546e0536b0ec"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/instance-context.ts": {
+    "mtime": 1779147933.7840126,
+    "hash": "609b5708eb5ca2ef3b0619914403bae2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/vcs.ts": {
+    "mtime": 1779147933.784472,
+    "hash": "a118ca38e0eb0215d1dad16c1c9db3e2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/instance-layer.ts": {
+    "mtime": 1779147933.7840614,
+    "hash": "e7677e874121b196fa1492b183fca235"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/instance-runtime.ts": {
+    "mtime": 1779147933.784121,
+    "hash": "a8742f829592b8484cedc40256167c6e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/instance-store.ts": {
+    "mtime": 1779147933.7841861,
+    "hash": "cf5c70948f2d07f8fc0fa783ce400906"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/project.sql.ts": {
+    "mtime": 1779147933.7842398,
+    "hash": "27628610b704e66cb14a9787727dd93d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/project/bootstrap.ts": {
+    "mtime": 1779147933.7839541,
+    "hash": "aeaee38ba7483d8669206b260e5b2e27"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/patch/index.ts": {
+    "mtime": 1779147933.7825534,
+    "hash": "86db7611a92929f7bc0dddbbc6db041f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/format/index.ts": {
+    "mtime": 1779147933.7806182,
+    "hash": "116d6dec28f79c05d731a6943102bd88"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/format/formatter.ts": {
+    "mtime": 1779147933.7805364,
+    "hash": "51d9fa82cd668f2257bdab28f67cd50c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/command/index.ts": {
+    "mtime": 1779147933.7765305,
+    "hash": "ef77b9faa5faf66e4f34dfe9d903201b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/sync/schema.ts": {
+    "mtime": 1779147933.7958992,
+    "hash": "d1e68a12bd981eab6b983bfa26784232"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/sync/index.ts": {
+    "mtime": 1779147933.795845,
+    "hash": "511c060a70f02afe0085bb9e6149bd55"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/sync/event.sql.ts": {
+    "mtime": 1779147933.7957494,
+    "hash": "ad108f2b730eca218afbcb95def1c3b8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/permission/schema.ts": {
+    "mtime": 1779147933.7828517,
+    "hash": "27122141127ee4270be108862e88aabe"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/permission/evaluate.ts": {
+    "mtime": 1779147933.782721,
+    "hash": "f4dbbf8fc9cde8c2a7de74ae746cfa39"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/permission/index.ts": {
+    "mtime": 1779147933.7828012,
+    "hash": "cfe6e1a3c2e523c0332bc74afbc60642"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/permission/arity.ts": {
+    "mtime": 1779147933.7826676,
+    "hash": "df4bee3938f3cd2322c46cce0c7fe654"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/acp/agent.ts": {
+    "mtime": 1779147933.7580125,
+    "hash": "d98dd6b84b80647af2bca0dd541bea8d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/acp/runtime.ts": {
+    "mtime": 1779147933.7580783,
+    "hash": "392d1776d51c720c3497b83eb4ada335"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/acp/types.ts": {
+    "mtime": 1779147933.758205,
+    "hash": "611a878c4a70658fd0d9d65e80a7c720"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/acp/session.ts": {
+    "mtime": 1779147933.7581425,
+    "hash": "3425d7ef40b89324d37658f45e6e10e5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/reference/reference.ts": {
+    "mtime": 1779147933.7857854,
+    "hash": "8690022c334236f23babbfa205ad9887"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/reference/repository-cache.ts": {
+    "mtime": 1779147933.785854,
+    "hash": "0e21aee2c7571fa8e434a00fac87f7bb"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/read.ts": {
+    "mtime": 1779147933.7971375,
+    "hash": "3d1799cd1eff43f3419d3a3e998f4dd7"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/schema.ts": {
+    "mtime": 1779147933.7975378,
+    "hash": "cd703a6962f38e3b466da2067f1dd04a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/tool.ts": {
+    "mtime": 1779147933.7983704,
+    "hash": "b680170b9a143ba2acf1be8044263a1f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/mcp-websearch.ts": {
+    "mtime": 1779147933.7968214,
+    "hash": "8a159dd0518428ffdac184dcafee8d15"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/todo.ts": {
+    "mtime": 1779147933.7982452,
+    "hash": "3b4cc110b23dfe11a2ad52705e4104e5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/webfetch.ts": {
+    "mtime": 1779147933.7985806,
+    "hash": "0dc80a1d8e560226d7b54c7e18421d72"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/external-directory.ts": {
+    "mtime": 1779147933.796332,
+    "hash": "3db4a905579c3b14988e6e692c7bda7e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/json-schema.ts": {
+    "mtime": 1779147933.7966547,
+    "hash": "cc2d081dec40e5c19e24ab55e945f705"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/repo_overview.ts": {
+    "mtime": 1779147933.797435,
+    "hash": "d44b9656e3413a2ee5739a2be7553aa9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/websearch.ts": {
+    "mtime": 1779147933.7987082,
+    "hash": "152dc14a73df259f422bab3cb7be082f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/lsp.ts": {
+    "mtime": 1779147933.7967124,
+    "hash": "4509fe3ca3d70c6bc79ad0cf87853030"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/task_status.ts": {
+    "mtime": 1779147933.798131,
+    "hash": "5c48b80a27526bd18aac94830aaef452"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/glob.ts": {
+    "mtime": 1779147933.796382,
+    "hash": "1580eebe6b10094b1722676b58f69fcb"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/grep.ts": {
+    "mtime": 1779147933.796488,
+    "hash": "33caf9a47239efe6562136ed82c5fbcc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/edit.ts": {
+    "mtime": 1779147933.7962167,
+    "hash": "298d4f5a540217f62ea65a6b422183d9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/question.ts": {
+    "mtime": 1779147933.7970254,
+    "hash": "729b2959b14b60bac540484cfe9ddc17"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/shell.ts": {
+    "mtime": 1779147933.797611,
+    "hash": "8c96c9ec1d3fa64cbe84a3d112d2685a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/invalid.ts": {
+    "mtime": 1779147933.7965915,
+    "hash": "0dd55cf6672ec9fdc82e1a5952097723"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/registry.ts": {
+    "mtime": 1779147933.7972634,
+    "hash": "d933b18dd0dfbab8ea2531e594bbd514"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/apply_patch.ts": {
+    "mtime": 1779147933.7960722,
+    "hash": "27be95587854cf42cd98cbc4e2a3b124"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/write.ts": {
+    "mtime": 1779147933.7988472,
+    "hash": "677d2c797617619105758c64c40e0635"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/repo_clone.ts": {
+    "mtime": 1779147933.797323,
+    "hash": "748c4d4d31cba8bff90f725464467fcc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/truncate.ts": {
+    "mtime": 1779147933.7984455,
+    "hash": "39c035932e4c71330329386212aa81fa"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/plan.ts": {
+    "mtime": 1779147933.796978,
+    "hash": "12c681b6767121e0390292ed9e8d3773"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/truncation-dir.ts": {
+    "mtime": 1779147933.7984996,
+    "hash": "7ba247af5774d7e076174612c6529014"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/task.ts": {
+    "mtime": 1779147933.7980065,
+    "hash": "882e0df7c8710ed83995cd0051df5271"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/skill.ts": {
+    "mtime": 1779147933.797867,
+    "hash": "036b2eac025e719785ed70967d2ffda2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/shell/prompt.ts": {
+    "mtime": 1779147933.7977617,
+    "hash": "71e69c1f9dfaf74a8df3cc438470c342"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/shell/id.ts": {
+    "mtime": 1779147933.797696,
+    "hash": "47fce9343dd337dfeec5ed1c0210d622"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/share/session.ts": {
+    "mtime": 1779147933.7941399,
+    "hash": "5d989c1f9ad85a961fc03581e0f4c7e8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/share/share-next.ts": {
+    "mtime": 1779147933.794357,
+    "hash": "777a8f52a16b4dad780e2d02d251ff1c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/share/share.sql.ts": {
+    "mtime": 1779147933.7944214,
+    "hash": "ee8416469ec21fa4576a84efe3c2dfaf"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/schema.ts": {
+    "mtime": 1779147933.793522,
+    "hash": "a67bcf33ca3cd3dc703bc3ae1de83568"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/status.ts": {
+    "mtime": 1779147933.7937624,
+    "hash": "a7e00eab8771392cb06655cb4d08c4bd"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/todo.ts": {
+    "mtime": 1779147933.7939758,
+    "hash": "1589f508d1621b4138241521cc180c3f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/instruction.ts": {
+    "mtime": 1779147933.7907677,
+    "hash": "8f180ea5d4ade0e6e24ffba13d3d2f71"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/message-v2.ts": {
+    "mtime": 1779147933.7913685,
+    "hash": "fc95f7e8dc6b453a09a69f1feacc9cf6"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/projectors-next.ts": {
+    "mtime": 1779147933.791703,
+    "hash": "36e23c2a8767a8cbdb1372ce437d46dc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt.ts": {
+    "mtime": 1779147933.7919228,
+    "hash": "490f1ba426e9909bd1042a4fa4f751a2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/session.sql.ts": {
+    "mtime": 1779147933.7935932,
+    "hash": "e5f39537185d175c1ea22caf8673d363"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/compaction.ts": {
+    "mtime": 1779147933.7906559,
+    "hash": "28bbfe2b0b89dd54a45709335f074317"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/summary.ts": {
+    "mtime": 1779147933.7938359,
+    "hash": "67dc2d5c44facdfbf7f2625218cea792"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/revert.ts": {
+    "mtime": 1779147933.793201,
+    "hash": "c03e032927f6bbe9f12b446b5b835283"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/retry.ts": {
+    "mtime": 1779147933.7931182,
+    "hash": "885566aae86e1b0d8ec38be1516d6f5e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/run-state.ts": {
+    "mtime": 1779147933.7934585,
+    "hash": "3f238a2f888a02b9d2ebc81d20dec6bd"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/projectors.ts": {
+    "mtime": 1779147933.7917788,
+    "hash": "689c5656ef9d3d2cdaa6bc0986689079"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/reminders.ts": {
+    "mtime": 1779147933.7930472,
+    "hash": "64648e78850078b1ed9fa858ea72ddb2"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/overflow.ts": {
+    "mtime": 1779147933.7914984,
+    "hash": "a4f4a71b35a71f45b76ce2344cb20225"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/llm.ts": {
+    "mtime": 1779147933.790917,
+    "hash": "968b13864158ee83c94ebe4b1f895147"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/processor.ts": {
+    "mtime": 1779147933.7916305,
+    "hash": "6eebbbc4f8966ea3e908c9ebf6ca9a1d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/message.ts": {
+    "mtime": 1779147933.7914386,
+    "hash": "c5298cb888f36e0ce883f93cb7a65792"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/session.ts": {
+    "mtime": 1779147933.7936842,
+    "hash": "2539787cf0267116373641cc8eeead13"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/tools.ts": {
+    "mtime": 1779147933.794044,
+    "hash": "851a5a1e49fcd19ca29ddff33cc199f4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/message-error.ts": {
+    "mtime": 1779147933.7912745,
+    "hash": "476e307f5b604143c605e30678daface"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/system.ts": {
+    "mtime": 1779147933.793909,
+    "hash": "ca78ac7a380e45da45e522362e68a0ab"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/llm/native-runtime.ts": {
+    "mtime": 1779147949.3835962,
+    "hash": "b648d36cc3281d86c48e46131f086ba4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/llm/ai-sdk.ts": {
+    "mtime": 1779147933.7910874,
+    "hash": "2e69e5d41be9375132b3af6a3dd4a50e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/llm/native-request.ts": {
+    "mtime": 1779147933.7911549,
+    "hash": "5168b89144cb951d78b376cc42d65af8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/reference.ts": {
+    "mtime": 1779147933.792929,
+    "hash": "7e9ae3d3cae32c16330e529f6ec5debf"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/skill/prompt/customize-opencode.md": {
+    "mtime": 1779147933.7948387,
+    "hash": "51324b33c6045c0936c33ede63b91408"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/generate.txt": {
+    "mtime": 1779147933.7584033,
+    "hash": "683dfee8dd64e8d6c438eb2a5b9b0fef"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/prompt/compaction.txt": {
+    "mtime": 1779147933.758504,
+    "hash": "61d6ad5d2cb3571cdb3bf499cd2b3191"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/prompt/title.txt": {
+    "mtime": 1779147933.7587607,
+    "hash": "579f1ef3708b00786b9746fdd48fabdc"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/prompt/scout.txt": {
+    "mtime": 1779147933.758636,
+    "hash": "25598f2d5bb9e4dbf752f1fb765ed349"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/prompt/summary.txt": {
+    "mtime": 1779147933.7586975,
+    "hash": "69bcca690be1dd5a351d3528c14e9a67"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/agent/prompt/explore.txt": {
+    "mtime": 1779147933.7585702,
+    "hash": "9689313fa8cfb6ac7d8caf0d06b650df"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/command/template/review.txt": {
+    "mtime": 1779147933.7766953,
+    "hash": "c1717abb3b0c95cf414d1a98b32d25d5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/command/template/initialize.txt": {
+    "mtime": 1779147933.7766232,
+    "hash": "9e8eefaa57e7f204096dd8956ac7b491"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/sync/README.md": {
+    "mtime": 1779147933.7956924,
+    "hash": "2a27178c7ff9b9b710d77d4873cae17c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/acp/README.md": {
+    "mtime": 1779147933.7578356,
+    "hash": "f4162dc7324d17e0b9a3f9b0404398c8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/repo_overview.txt": {
+    "mtime": 1779147933.7974913,
+    "hash": "bec5f0acde0789c2d441736df2951f27"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/apply_patch.txt": {
+    "mtime": 1779147933.796128,
+    "hash": "69c23fc08e1e892ba6df43daf53228f9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/skill.txt": {
+    "mtime": 1779147933.797919,
+    "hash": "23681f3dc604d45783a625e227924efe"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/glob.txt": {
+    "mtime": 1779147933.7964303,
+    "hash": "f6e595e505b40b2f0bba85b3b5ac4f15"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/lsp.txt": {
+    "mtime": 1779147933.796768,
+    "hash": "3546f2528d5286e2a225bddf034bd648"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/grep.txt": {
+    "mtime": 1779147933.7965384,
+    "hash": "77987cbb64ea3169e100911f4b2d80ba"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/task.txt": {
+    "mtime": 1779147933.7980664,
+    "hash": "13db0873c5e9480bdbeb2cd2fd2f2191"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/plan-exit.txt": {
+    "mtime": 1779147933.7969213,
+    "hash": "eec6fb2ca4a1cd385264dff514d899ef"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/question.txt": {
+    "mtime": 1779147933.7970748,
+    "hash": "94af4ce3aeb36ef4d41007ecf127281b"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/todowrite.txt": {
+    "mtime": 1779147933.7983034,
+    "hash": "636d60c14d63ee3e837d6b3f0db876d4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/edit.txt": {
+    "mtime": 1779147933.796278,
+    "hash": "06f8fd353d03f27b18b6dbba8d8e6699"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/plan-enter.txt": {
+    "mtime": 1779147933.7968688,
+    "hash": "562de70918d26eb7376de1154599fef9"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/task_status.txt": {
+    "mtime": 1779147933.7981856,
+    "hash": "5fffdcbb2e27c0342a9df4d1b44add9e"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/write.txt": {
+    "mtime": 1779147933.7989032,
+    "hash": "bc98e5f6948c2188ec987cc768e20db5"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/repo_clone.txt": {
+    "mtime": 1779147933.7973714,
+    "hash": "4fbfe01751d7e4a672469c8d5b9b6387"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/websearch.txt": {
+    "mtime": 1779147933.7987685,
+    "hash": "7ee50357429f2f730f6c83c595634fca"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/webfetch.txt": {
+    "mtime": 1779147933.7986393,
+    "hash": "5ff2dd00008f6355450d2e9cad06daa4"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/read.txt": {
+    "mtime": 1779147933.797189,
+    "hash": "533e5632a310a09a2f338dd9855bad81"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/tool/shell/shell.txt": {
+    "mtime": 1779147933.7978168,
+    "hash": "2fb683fdf65d20d46bb46f15952e6921"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/llm/AGENTS.md": {
+    "mtime": 1779147933.7910192,
+    "hash": "e3be09c16dd76e1838622ebbf485640f"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/max-steps.txt": {
+    "mtime": 1779147933.7927043,
+    "hash": "67294b590fbd208d2774295be79dea36"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/gemini.txt": {
+    "mtime": 1779147933.7925236,
+    "hash": "fce58deffb9bc8199480023efe74f8ae"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/plan-reminder-anthropic.txt": {
+    "mtime": 1779147933.7928197,
+    "hash": "fd17a7f6719e344561af8ee7934ee2df"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/kimi.txt": {
+    "mtime": 1779147933.7926574,
+    "hash": "6fff636c5e69ed818371190764da5115"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/trinity.txt": {
+    "mtime": 1779147933.7929904,
+    "hash": "4dfe0c8caae5d38d2be3d91cab8a666c"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/copilot-gpt-5.txt": {
+    "mtime": 1779147933.792335,
+    "hash": "0683212ffb46945ae44aeb6eee9b9fbd"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/gpt.txt": {
+    "mtime": 1779147933.7925897,
+    "hash": "40b34e0abd72070c01f67983e2d09567"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/anthropic.txt": {
+    "mtime": 1779147933.7920341,
+    "hash": "90e602bb12d4145488652a9bac45200d"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/build-switch.txt": {
+    "mtime": 1779147933.792162,
+    "hash": "bbb7e91ecc18b1a41304f62864be1904"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/plan.txt": {
+    "mtime": 1779147933.792872,
+    "hash": "6c025bbcb3ca60c8ad6fba1de7c76618"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/default.txt": {
+    "mtime": 1779147933.7924175,
+    "hash": "7efcc9fdd3104dc5df844996754aa91a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/beast.txt": {
+    "mtime": 1779147933.79211,
+    "hash": "da14f01650a066d2f1f8b1a4efef40b8"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/codex.txt": {
+    "mtime": 1779147933.7922287,
+    "hash": "b2e8f926fffab73a247282184b46368a"
+  },
+  "/Users/natchung/projects/open-source-trace/cli-tools/opencode/packages/opencode/src/session/prompt/plan-mode.txt": {
+    "mtime": 1779147933.792764,
+    "hash": "199152bceea47421e438cf68e293f142"
+  }
+}

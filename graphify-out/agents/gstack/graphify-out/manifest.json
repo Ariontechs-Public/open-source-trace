@@ -1,0 +1,586 @@
+{
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design-html/vendor/pretext.js": {
+    "mtime": 1779147918.9296055,
+    "hash": "e04b8d0c6712b291f2b37088999007e0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/prototype.ts": {
+    "mtime": 1779147918.9303558,
+    "hash": "cb70dfd36b8e8b2e985e26a610f7d163"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/test/variants-retry-after.test.ts": {
+    "mtime": 1779147918.9322717,
+    "hash": "c7124b58dcbd0683c5d553f150293c98"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/test/serve.test.ts": {
+    "mtime": 1779147918.9321337,
+    "hash": "4c20779130624e0e6ce9a9e2e8595c75"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/test/feedback-roundtrip.test.ts": {
+    "mtime": 1779147918.9319344,
+    "hash": "d78b95e182b05b25d66c2bf326dddee2"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/test/gallery.test.ts": {
+    "mtime": 1779147918.9320538,
+    "hash": "dba2b95a9fe3613205ef3e76936548c6"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/compare.ts": {
+    "mtime": 1779147918.930747,
+    "hash": "283d7916c512be215a8810bbe1c65576"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/commands.ts": {
+    "mtime": 1779147918.9306757,
+    "hash": "8b1e3f864c176a1d9646ac3635f8e3f5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/design-to-code.ts": {
+    "mtime": 1779147918.930915,
+    "hash": "fb4ebc55a7dc0b90259aa59360bf8177"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/gallery.ts": {
+    "mtime": 1779147918.931241,
+    "hash": "748009c21da6469a9a607a82de8e8c0a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/diff.ts": {
+    "mtime": 1779147918.9309716,
+    "hash": "6eb69531461f2840acad1fc54ed510e3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/cli.ts": {
+    "mtime": 1779147918.9306185,
+    "hash": "5e8da1a291babc23d8fa0c94dd1d2121"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/serve.ts": {
+    "mtime": 1779147918.9316936,
+    "hash": "d452f40fdd0aa79649cb961308b72311"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/session.ts": {
+    "mtime": 1779147918.9317489,
+    "hash": "64d7f054e7dd013894b2c079742d29fd"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/brief.ts": {
+    "mtime": 1779147918.9304895,
+    "hash": "85039f5a5041b3cb6c04ca19f92eac3a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/memory.ts": {
+    "mtime": 1779147918.9316204,
+    "hash": "0c5408b1759a20128e70e1c53b613a2e"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/generate.ts": {
+    "mtime": 1779147918.9313664,
+    "hash": "ec7c49deb5102de292f2660519924b05"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/check.ts": {
+    "mtime": 1779147918.9305475,
+    "hash": "c827673b6b5e38a643b0e32b9e7b02b9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/variants.ts": {
+    "mtime": 1779147918.9318194,
+    "hash": "baf961b2b234b0f0a93b8f73925abb88"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/iterate.ts": {
+    "mtime": 1779147918.9314938,
+    "hash": "fffa45e231b439aab414ce109548d4e2"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/evolve.ts": {
+    "mtime": 1779147918.9311047,
+    "hash": "8a60bb1fbbf0802868c9521e3872249b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design/src/auth.ts": {
+    "mtime": 1779147918.9304366,
+    "hash": "9e1dd07b22403846d674ed64eb118c42"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/browser-skills/hackernews-frontpage/script.ts": {
+    "mtime": 1779147918.926737,
+    "hash": "1fe56bad4f962447818efc7cbc185966"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/browser-skills/hackernews-frontpage/script.test.ts": {
+    "mtime": 1779147918.9266078,
+    "hash": "314fa556f5a7a10db0e89ef547ef8236"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/browser-skills/hackernews-frontpage/_lib/browse-client.ts": {
+    "mtime": 1779147918.9263988,
+    "hash": "37955bba6f5afefb01f6ec3c474b7c32"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/lib/gbrain-exec.ts": {
+    "mtime": 1779147918.9423509,
+    "hash": "1205fcb692326a47101fad09d7202fd7"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/lib/worktree.ts": {
+    "mtime": 1779147918.942751,
+    "hash": "57d24480a1ef590ec0cf2647a87c48b6"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/lib/gbrain-sources.ts": {
+    "mtime": 1779147918.9425793,
+    "hash": "0f3e20799e927348ba52a129f1a01cd7"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/lib/gstack-memory-helpers.ts": {
+    "mtime": 1779147918.9426658,
+    "hash": "e3509f15f9f22989da5e813f28cf6d19"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/lib/gbrain-local-status.ts": {
+    "mtime": 1779147918.9424348,
+    "hash": "4103e4482264b943bee5ef5d60740179"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/lib/conductor-env-shim.ts": {
+    "mtime": 1779147918.9422092,
+    "hash": "19c02b2d3aabe7df70b582e597a15280"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/openclaw.ts": {
+    "mtime": 1779147918.94066,
+    "hash": "b94119ba4d0c85cbf897d8441092bfb8"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/cursor.ts": {
+    "mtime": 1779147918.9401724,
+    "hash": "191adf8fd1d9d7ca5be9435e5830344b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/gbrain.ts": {
+    "mtime": 1779147918.940343,
+    "hash": "463141f32a5679593014fbfe83960eb7"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/slate.ts": {
+    "mtime": 1779147918.9408276,
+    "hash": "0c9499140191daaeda7cdfc520ece586"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/kiro.ts": {
+    "mtime": 1779147918.9405866,
+    "hash": "11805fadec48ad00d32114f0c752a9f0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/factory.ts": {
+    "mtime": 1779147918.9402618,
+    "hash": "41f157579a6d01e0a2dab3964c378ca2"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/opencode.ts": {
+    "mtime": 1779147918.9407487,
+    "hash": "de2a173c3b2cf0119dd964ff7d1d7394"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/hermes.ts": {
+    "mtime": 1779147918.9404216,
+    "hash": "5b29814d3084289b86c23d2c25f51c90"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/claude.ts": {
+    "mtime": 1779147918.940009,
+    "hash": "cda4c7f22f9fabcb8b9dc3bf79ce9976"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/codex.ts": {
+    "mtime": 1779147918.9400935,
+    "hash": "84a5c8a7b0b2bc3fff42548c526834b2"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/hosts/index.ts": {
+    "mtime": 1779147918.940505,
+    "hash": "966b4e82caf8ed1757e38d671787815d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/test/browseClient.test.ts": {
+    "mtime": 1779147918.9441512,
+    "hash": "2985c93538c654f1bac5d1a4ebbcd203"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/test/pdftotext.test.ts": {
+    "mtime": 1779147918.9444902,
+    "hash": "a06a405084f260da7968462dbb7cdfe1"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/test/render.test.ts": {
+    "mtime": 1779147918.9445622,
+    "hash": "601f02b3342faeda26cef822954725e0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/test/e2e/combined-gate.test.ts": {
+    "mtime": 1779147918.944238,
+    "hash": "0402b4ce1d474388fca19389721bdc34"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/commands.ts": {
+    "mtime": 1779147918.9433591,
+    "hash": "568ed13fd3bd7ff801c8b39a3521a115"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/smartypants.ts": {
+    "mtime": 1779147918.9439063,
+    "hash": "e514d6096618d6125e55311a426709df"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/orchestrator.ts": {
+    "mtime": 1779147918.9434993,
+    "hash": "6cf31e795056399caa222467858c1166"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/browseClient.ts": {
+    "mtime": 1779147918.9432106,
+    "hash": "77a52ffc66dc6b99b12a18e5569f186c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/cli.ts": {
+    "mtime": 1779147918.9432917,
+    "hash": "b60154e1ca62acf87a48f6ba6da2130d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/setup.ts": {
+    "mtime": 1779147918.9438405,
+    "hash": "39447b6df5872b7621dfbb02dc705f5a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/pdftotext.ts": {
+    "mtime": 1779147918.9435902,
+    "hash": "01d1d8a2412f257ce7e5c385fe51c1cc"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/types.ts": {
+    "mtime": 1779147918.9439752,
+    "hash": "5c7c41b9b592fae483df062a5f534c52"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/print-css.ts": {
+    "mtime": 1779147918.9436743,
+    "hash": "e4232ce37aea6daa4706d98b225f3cc3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/src/render.ts": {
+    "mtime": 1779147918.9437735,
+    "hash": "07a370fdd1504cc4d24d5cf2ed11d883"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/USING_GBRAIN_WITH_GSTACK.md": {
+    "mtime": 1779147918.8761313,
+    "hash": "5c9a02a4a4a6854c85ff8d992ba5b2b9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/ARCHITECTURE.md": {
+    "mtime": 1779147918.8735206,
+    "hash": "d33d41169afe9fe5c86203e743e9361c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/BROWSER.md": {
+    "mtime": 1779147918.8736937,
+    "hash": "cd9c53bea5068d6218145673e2674d06"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/ETHOS.md": {
+    "mtime": 1779147918.8753455,
+    "hash": "9c1c618ceb22258f5f503e34f358efb7"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/README.md": {
+    "mtime": 1779147918.8755414,
+    "hash": "730e66dcf0a0ad5cd1d6aa71fcd20a2f"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/TODOS.md": {
+    "mtime": 1779147918.8760033,
+    "hash": "b50b67b15a88349b61a47c526da942ad"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/CONTRIBUTING.md": {
+    "mtime": 1779147918.8750312,
+    "hash": "e9d9e6f319451b68b5035ef21c438598"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/SKILL.md": {
+    "mtime": 1779147918.8756738,
+    "hash": "82df7872e4d01a07b69f8ebd2d1d470e"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/DESIGN.md": {
+    "mtime": 1779147918.8751884,
+    "hash": "bb22a8a32932196cbbd9cf2c1a74c9ea"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/AGENTS.md": {
+    "mtime": 1779147918.8734152,
+    "hash": "ed985163912efaa96faa0e03ed3ff374"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/CLAUDE.md": {
+    "mtime": 1779147918.874912,
+    "hash": "336dc8d77923a71d6f2351159166ed96"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/pair-agent/SKILL.md": {
+    "mtime": 1779147918.9466672,
+    "hash": "d1b8e7ba6cededf97d76be6123e32fb3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design-html/SKILL.md": {
+    "mtime": 1779147918.9293795,
+    "hash": "a660d5fe5691e611803c23f81604bd3b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/plan-tune/SKILL.md": {
+    "mtime": 1779147918.947928,
+    "hash": "368ce2eb254ce230d3f153084c50796a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design-shotgun/SKILL.md": {
+    "mtime": 1779147918.9300497,
+    "hash": "d40a9221e8147fe80efeacde868000db"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/plan-design-review/SKILL.md": {
+    "mtime": 1779147918.9471014,
+    "hash": "bb44e05039d3acb023feb0980a85fc92"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/autoplan/SKILL.md": {
+    "mtime": 1779147918.8764794,
+    "hash": "5c34a676bfd9f8dfb352dcbbc302160d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design-consultation/SKILL.md": {
+    "mtime": 1779147918.9290824,
+    "hash": "130bf395ba0b1f5fd3082cc804ecb9d9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/learn/SKILL.md": {
+    "mtime": 1779147918.941932,
+    "hash": "5ee0de01ea2fc3921271d4b3d40e7075"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/freeze/SKILL.md": {
+    "mtime": 1779147918.9380584,
+    "hash": "77fe26d685d1180ce512ecc23ee85c1a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/careful/SKILL.md": {
+    "mtime": 1779147918.9272401,
+    "hash": "27011c2743f766a3dd047c6103548af3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/cso/ACKNOWLEDGEMENTS.md": {
+    "mtime": 1779147918.9285543,
+    "hash": "7c031c6321991bf55acd8006566d04cc"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/cso/SKILL.md": {
+    "mtime": 1779147918.9286814,
+    "hash": "e8400d6e8849c40a09560c14343d3642"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/canary/SKILL.md": {
+    "mtime": 1779147918.9270186,
+    "hash": "1d05f5e90fce5032f6cbd15ac3ea3d56"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/gstack-full-CLAUDE.md": {
+    "mtime": 1779147918.9455879,
+    "hash": "8b1e8cb7ceeadd9bd6f27b38dd3a8173"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/gstack-lite-CLAUDE.md": {
+    "mtime": 1779147918.9456403,
+    "hash": "2f907bb3a10db92f5ac5d16d10513b6c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/gstack-plan-CLAUDE.md": {
+    "mtime": 1779147918.94569,
+    "hash": "332ffe63d5033eef5d4d9a9a8e5eb9ab"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/agents-gstack-section.md": {
+    "mtime": 1779147918.9455357,
+    "hash": "5c634f92005dafb5456872eacdfa2525"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md": {
+    "mtime": 1779147918.9461048,
+    "hash": "e78935aca5af3d9a0ec1ecdb53d67194"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md": {
+    "mtime": 1779147918.9462914,
+    "hash": "9400dcad49d3d545439a102da79b7d44"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md": {
+    "mtime": 1779147918.945923,
+    "hash": "ad12b9918f26bdad42b12ba60503a499"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md": {
+    "mtime": 1779147918.9464378,
+    "hash": "095caba674f74a77e05a8a3e0fb6138d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/open-gstack-browser/SKILL.md": {
+    "mtime": 1779147918.9453309,
+    "hash": "4c55f7fcbf3981a021ebfafb4c62660d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/investigate/SKILL.md": {
+    "mtime": 1779147918.9409888,
+    "hash": "263c47ed335bee706f86bb13424ae5eb"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/context-restore/SKILL.md": {
+    "mtime": 1779147918.9280071,
+    "hash": "22547af87529feea45a21318014d3d3a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/model-overlays/o-series.md": {
+    "mtime": 1779147918.9448533,
+    "hash": "3b5fd238ff04b76bf60262d3cab1ba15"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/model-overlays/gpt.md": {
+    "mtime": 1779147918.944805,
+    "hash": "d8609cf40b04137fd695963e430e2b1d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/model-overlays/gpt-5.4.md": {
+    "mtime": 1779147918.9447477,
+    "hash": "f596c5318a3f42ffb8d2320d094cf55d"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/model-overlays/gemini.md": {
+    "mtime": 1779147918.9446971,
+    "hash": "32eceb27094824427d275584c5be6bad"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/model-overlays/opus-4-7.md": {
+    "mtime": 1779147918.944911,
+    "hash": "2e65404bc3dd519237a0d04376e9f677"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/model-overlays/claude.md": {
+    "mtime": 1779147918.9446478,
+    "hash": "252987b233c95662def58d70b3f28ee6"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/document-release/SKILL.md": {
+    "mtime": 1779147918.9366798,
+    "hash": "7e24a82952dceff33c6ee663aefc03c3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/health/SKILL.md": {
+    "mtime": 1779147918.9397676,
+    "hash": "452f6d45a4514030d4fdb5097f23b146"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/gstack-upgrade/SKILL.md": {
+    "mtime": 1779147918.938366,
+    "hash": "4e1e1740ba9c914e34f025ad03680a86"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/land-and-deploy/SKILL.md": {
+    "mtime": 1779147918.9413207,
+    "hash": "717388b6230bbe133aadab04dc5d6110"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/codex/SKILL.md": {
+    "mtime": 1779147918.927689,
+    "hash": "ee20613aa4b46d11b010e3a7d7cb8cd5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/gstack/llms.txt": {
+    "mtime": 1779147918.9393868,
+    "hash": "a0d2452a1b7b9af469397bfb938e3d55"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/agents/openai.yaml": {
+    "mtime": 1779147918.8762798,
+    "hash": "619a854bcf7b11612a0089633b706241"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/qa/SKILL.md": {
+    "mtime": 1779147918.9485085,
+    "hash": "809e484c272a5a5d7a3da442f9f4def9"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/qa/references/issue-taxonomy.md": {
+    "mtime": 1779147918.948786,
+    "hash": "36e0f0c5656d58aa4d7b4360f01c9159"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/qa/templates/qa-report-template.md": {
+    "mtime": 1779147918.9488692,
+    "hash": "b7fd0bc6a151bd0ef56f52bab6548e88"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/scrape/SKILL.md": {
+    "mtime": 1779147918.9506981,
+    "hash": "4de9db721e21994f253bd48080159e26"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/qa-only/SKILL.md": {
+    "mtime": 1779147918.9483557,
+    "hash": "fe983e98f93bd4bcd07c88058a12a2b4"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/skillify/SKILL.md": {
+    "mtime": 1779147918.9619746,
+    "hash": "a91c0d6ee7d8ce97a780953c237d401c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/sync-gbrain/SKILL.md": {
+    "mtime": 1779147918.963363,
+    "hash": "5f906011fef052fe0a248b0f7e1cfb67"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/setup-browser-cookies/SKILL.md": {
+    "mtime": 1779147918.9606295,
+    "hash": "82c256082dfdac5b3323f6cdf1070df2"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/browser-skills/hackernews-frontpage/SKILL.md": {
+    "mtime": 1779147918.926292,
+    "hash": "fc66c8fae0a0d9dc70e2613cbbd213e3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/browser-skills/hackernews-frontpage/fixtures/hn-2026-04-26.html": {
+    "mtime": 1779147918.92655,
+    "hash": "ebebd3011a4ccaa6e5f0e02f3ca30f97"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/setup-gbrain/memory.md": {
+    "mtime": 1779147918.9614732,
+    "hash": "dfdbd66187ec57ce4450ee8aa10b75d3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/setup-gbrain/SKILL.md": {
+    "mtime": 1779147918.9612422,
+    "hash": "9cfff0917722a3a6e785ee443ec414c2"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/document-generate/SKILL.md": {
+    "mtime": 1779147918.9364493,
+    "hash": "50b4508596e7f5289cde7fbd5f3d8741"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/TODOS-format.md": {
+    "mtime": 1779147918.9496765,
+    "hash": "cc8acec44b55551954b4a4e42022bf4a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/greptile-triage.md": {
+    "mtime": 1779147918.9499757,
+    "hash": "80fa911bbeb0151c5b76627f79653468"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/checklist.md": {
+    "mtime": 1779147918.94976,
+    "hash": "d61f276fdcc0966c0cde41f61cb08bfb"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/SKILL.md": {
+    "mtime": 1779147918.9494636,
+    "hash": "26b8e63c0c5ba32747043513f9e0bd32"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/design-checklist.md": {
+    "mtime": 1779147918.9499023,
+    "hash": "bf6a65d51a27c0f8c0fdd0ab6ce4e55a"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/specialists/api-contract.md": {
+    "mtime": 1779147918.9500723,
+    "hash": "820aafcc93eb111020702c5b42dd7ee3"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/specialists/testing.md": {
+    "mtime": 1779147918.9504502,
+    "hash": "efee2dc47dc221847bdab75409be8f29"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/specialists/performance.md": {
+    "mtime": 1779147918.9502578,
+    "hash": "b031bc3817c064b802c7ff99966ef3d0"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/specialists/maintainability.md": {
+    "mtime": 1779147918.9502,
+    "hash": "bc26eb42688b59c1d07cd8faff2736af"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/specialists/red-team.md": {
+    "mtime": 1779147918.950314,
+    "hash": "3191ac201060c6ede9f109b7753658ae"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/specialists/data-migration.md": {
+    "mtime": 1779147918.9501414,
+    "hash": "d82cae0d82c77985cad0b2c6e5ab2f2c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/review/specialists/security.md": {
+    "mtime": 1779147918.9503794,
+    "hash": "4ed83f18a6ce5c40b3dd850ed3564724"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/plan-ceo-review/SKILL.md": {
+    "mtime": 1779147918.9468586,
+    "hash": "0b1ceb687104998d1353188578cdf85b"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/office-hours/SKILL.md": {
+    "mtime": 1779147918.9450254,
+    "hash": "5f18e0346f7a02e1424a2e13b002da00"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/landing-report/SKILL.md": {
+    "mtime": 1779147918.9416237,
+    "hash": "063bf9354b8d29b22037c0e16f146611"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/retro/SKILL.md": {
+    "mtime": 1779147918.9490087,
+    "hash": "cb43a4b7ec190e7e6e6ddac8db069c33"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/devex-review/SKILL.md": {
+    "mtime": 1779147918.9323971,
+    "hash": "423330117b4ff6abe60c7d94af4f9436"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/plan-devex-review/dx-hall-of-fame.md": {
+    "mtime": 1779147918.9475808,
+    "hash": "972955940755b272b34102115681f74c"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/plan-devex-review/SKILL.md": {
+    "mtime": 1779147918.947352,
+    "hash": "7454c3f074f5e9c26ff1b9090c467113"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/design-review/SKILL.md": {
+    "mtime": 1779147918.9298308,
+    "hash": "f49b2b2cb59ddc2d146f544850eba7cf"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/ship/SKILL.md": {
+    "mtime": 1779147918.961634,
+    "hash": "9a20c95f768488efe02cdfa047b08fa6"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/plan-eng-review/SKILL.md": {
+    "mtime": 1779147918.9477253,
+    "hash": "84abad4679230446df1e3956fc7561c5"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/guard/SKILL.md": {
+    "mtime": 1779147918.9395125,
+    "hash": "833104dd05319ab1e8223e012d03d11f"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/SKILL.md": {
+    "mtime": 1779147918.9428957,
+    "hash": "d24117b4e7e5a4e869e88335a19c7736"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/test/fixtures/combined-gate.expected.txt": {
+    "mtime": 1779147918.9443161,
+    "hash": "1d440a73981476d87c803752c7b3e447"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/make-pdf/test/fixtures/combined-gate.md": {
+    "mtime": 1779147918.944365,
+    "hash": "86989cfbd459aa5c7075d683adc11fdd"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/unfreeze/SKILL.md": {
+    "mtime": 1779147918.9811318,
+    "hash": "76bef4d13de0f22e67c8e59da2d88ebb"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/context-save/SKILL.md": {
+    "mtime": 1779147918.9282653,
+    "hash": "1ea9beafed1321eaa40f13d2811c3638"
+  },
+  "/Users/natchung/projects/open-source-trace/agents/gstack/setup-deploy/SKILL.md": {
+    "mtime": 1779147918.9608502,
+    "hash": "cc2be3f04ca7f02655deac4f0e9ef292"
+  }
+}
