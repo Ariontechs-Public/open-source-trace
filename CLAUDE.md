@@ -6,13 +6,19 @@ Mission: **靠 source code 學東西** — *learn by reading the source*.
 
 ## The Three Trees
 
-Every tracked project lives in three parallel directories. Each tree has exactly one owner and one responsibility:
+Every tracked project is split across three concerns. Each tree has exactly one owner and one responsibility (the graph tree now nests inside the source submodule rather than living in its own top-level directory):
 
 | Tree | Path | Owner | Mutable here? |
 |---|---|---|---|
 | Source | `<category>/<slug>/` | upstream (git submodule) | **No — read-only** |
-| Knowledge graph | `graphify-out/<category>/<slug>/` | machine (graphify) | Regenerate, don't hand-edit |
+| Knowledge graph | `<category>/<slug>/.codegraph/` | machine (codegraph) | Regenerate, don't hand-edit; gitignored, not committed |
 | Human notes | `traces/<category>/<slug>/` | us | Yes |
+
+> **Graph tree = codegraph (replaces the old `graphify-out/`).** The knowledge graph is now a live
+> codegraph (`~/.local/bin/codegraph`) SQLite index built with `codegraph init <category>/<slug>` and queried through the
+> codegraph MCP (`codegraph_explore`, `codegraph_search`, …). It lives in a `.codegraph/` directory inside
+> each submodule, is **gitignored and regenerable** (never committed), and is the one tolerated exception to
+> Critical Rule #1 — it is machine index state, not an edit to upstream source.
 
 Categories at top level: `agents/`, `cli-tools/`, `frameworks/`, `apps/`. Add new categories as needed (e.g., `models/`).
 
@@ -22,11 +28,11 @@ Categories at top level: `agents/`, `cli-tools/`, `frameworks/`, `apps/`. Add ne
 
 2. **All human-authored content goes in `traces/<cat>/<slug>/`** — not in the submodule, not at repo root.
 
-3. **graphify output goes in `graphify-out/<category>/<slug>/`** — mirrors the source tree. Generate via `/graphify <path>`.
+3. **The knowledge graph is a codegraph index at `<category>/<slug>/.codegraph/`** — build it with `codegraph init <category>/<slug>` and query it via the codegraph MCP. It is gitignored and regenerable; never commit it and never hand-edit it.
 
 4. **`traces/<cat>/<slug>/meta.yml` is the single source of truth** for the project index and the content-pipeline. Update it whenever you re-trace.
 
-5. **No article drafts in this repo.** Articles are published from `~/projects/ariontechs-platform/apps/content-pipeline`, which reads `meta.yml` + `summary.md` + `graphify-out/` from here.
+5. **No article drafts in this repo.** Articles are published from `~/projects/ariontechs-platform/apps/content-pipeline`, which reads `meta.yml` + `summary.md` from here. (It formerly also consumed the committed `graphify-out/`; that tree is gone — the graph is now a local codegraph index.)
 
 6. **Language convention.** English in code, file paths, identifiers, and most prose. **中文口訣** (key mantras / one-liners) are welcome in `summary.md` callouts and in `meta.yml` `one_line` — they are part of the learning style of this repo.
 
@@ -49,13 +55,13 @@ $EDITOR traces/$CAT/$SLUG/summary.md    # 5 H2 sections, see template
 # When you start writing a long-form deep dive:
 #   mkdir -p traces/$CAT/$SLUG/notes && $EDITOR traces/$CAT/$SLUG/notes/<topic>.md
 
-# 4. (Optional) Generate the knowledge graph
-/graphify $CAT/$SLUG
-# Output lands in graphify-out/$CAT/$SLUG/
+# 4. (Optional) Build the knowledge graph (codegraph)
+codegraph init $CAT/$SLUG
+# Index lands in $CAT/$SLUG/.codegraph/ — gitignored, NOT committed. Query via the codegraph MCP.
 
 # 5. Update the README INDEX block, then commit at root
+#    (.codegraph/ is gitignored, so there is nothing to `git add` for the graph.)
 git add .gitmodules $CAT/$SLUG traces/$CAT/$SLUG README.md
-[ -d graphify-out/$CAT/$SLUG ] && git add graphify-out/$CAT/$SLUG   # only if step 4 ran
 git commit -m "trace: add $CAT/$SLUG"
 ```
 
@@ -76,14 +82,13 @@ $EDITOR traces/$CAT/$SLUG/meta.yml
 #   upstream.pinned_commit: <new-tag-or-commit>
 #   last_traced: <today>
 
-# 3. Re-run graphify if the change is substantial
-/graphify $CAT/$SLUG
+# 3. Rebuild the codegraph index if the change is substantial
+codegraph init $CAT/$SLUG   # (or `codegraph sync $CAT/$SLUG` for an incremental update)
 
 # 4. Update summary.md (learned / open-questions) as new insight lands
 
-# 5. Commit at root
+# 5. Commit at root (.codegraph/ is gitignored — nothing to add for the graph)
 git add $CAT/$SLUG traces/$CAT/$SLUG
-[ -d graphify-out/$CAT/$SLUG ] && git add graphify-out/$CAT/$SLUG
 git commit -m "trace: re-trace $CAT/$SLUG @ <new-version>"
 ```
 
@@ -130,13 +135,13 @@ English paragraph.
 
 ## Map
 - [Architecture deep dive](notes/architecture.md)
-- Knowledge graph: `graphify-out/<cat>/<slug>/`
+- Knowledge graph (codegraph, live): `<cat>/<slug>/.codegraph/` — query via the codegraph MCP.
 - Upstream: <url>
 ```
 
 ## Where Things Live
 
-- `<category>/`, `graphify-out/`, `traces/` — the three trees per tracked project (see The Three Trees table above)
+- `<category>/` (source + its gitignored `.codegraph/` index) and `traces/` — the three trees per tracked project (see The Three Trees table above)
 - `docs/superpowers/specs/` — design docs / spec for this repo's own evolution (e.g., this layout was specified in `docs/superpowers/specs/2026-05-19-open-source-trace-design.md`)
 - `experiments/<name>/` — our own POCs and applications, NOT for tracking other people's projects
 - `scripts/` — repo maintenance (planned: `build-index.*` to regenerate the README INDEX block)
@@ -144,14 +149,14 @@ English paragraph.
 
 ## Related Repos
 
-- `~/projects/ariontechs-platform/apps/content-pipeline` — publishes articles derived from `meta.yml` + `summary.md` + `graphify-out/` in this repo
+- `~/projects/ariontechs-platform/apps/content-pipeline` — publishes articles derived from `meta.yml` + `summary.md` in this repo (it previously also read the committed `graphify-out/`, now replaced by a local codegraph index)
 
 ## Don't
 
 - Don't add per-project README files under `<category>/`. Use `traces/<cat>/<slug>/summary.md`.
 - Don't let `meta.yml` `category:` drift from the parent directory name — they MUST match.
 - Don't reuse a slug across categories. Slugs are globally unique (`agents/foo/` and `cli-tools/foo/` cannot coexist).
-- Don't put graphify output inside a submodule directory.
+- Don't commit the codegraph index (`.codegraph/`) — it is gitignored, regenerable machine state. Rebuild with `codegraph init <cat>/<slug>`, don't hand-edit it.
 - Don't write article drafts in this repo.
 - Don't rename or reorder the H2 sections of `summary.md` — the pipeline depends on them.
 - Don't commit secrets, `.env` files, or large binary fixtures.

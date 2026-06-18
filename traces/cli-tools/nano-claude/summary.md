@@ -37,8 +37,7 @@ The fastest path to understanding a complex system is a minimal-viable reimpleme
 - Streaming wrapper (`api.ts`) — is it just `@anthropic-ai/sdk` defaults, or are there non-obvious choices around tool-call deltas / interrupted streams / token usage tracking?
 
 ## Map
-- Knowledge graph: [`graphify-out/cli-tools/nano-claude/`](../../../graphify-out/cli-tools/nano-claude/graphify-out/) — 195 nodes / 315 edges / 18 communities. Cohesion-1.0 community = markdown rendering; god nodes = `main`, `runConversationLoop`, `Tool`, `handleCommand`, `buildSystemPrompt`. Open `graph.html` in browser.
-- Audit report: [`graphify-out/cli-tools/nano-claude/graphify-out/GRAPH_REPORT.md`](../../../graphify-out/cli-tools/nano-claude/graphify-out/GRAPH_REPORT.md)
+- Knowledge graph (codegraph, live): `cli-tools/nano-claude/.codegraph/` — 18 files / 165 nodes / 317 edges. God nodes worth a look: `main`, `runConversationLoop`, `Tool`, `handleCommand`, `buildSystemPrompt`. Query via the codegraph MCP (`codegraph_explore`, `codegraph_search`). Rebuild with `codegraph init cli-tools/nano-claude`.
 - Upstream: <https://github.com/dox012/nano-claude> · pinned at `21ee5c6`
 - Upstream learning guide: [`docs/LEARNING_GUIDE.md`](../../../cli-tools/nano-claude/docs/LEARNING_GUIDE.md) (and `_CN.md` Chinese version)
 - Compare with: Claude Code (the system being minimized — Anthropic, not tracked here), [[opencode]] (different approach to the same problem)

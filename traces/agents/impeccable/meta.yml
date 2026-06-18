@@ -1,0 +1,25 @@
+# Required
+name: Impeccable
+category: agents
+upstream:
+  url: https://github.com/pbakaus/impeccable
+  pinned_commit: "cli-v3.0.3-6-g1c897a09"   # bump when re-tracing; must match the submodule checkout
+  license: Apache-2.0
+status: tracing
+one_line: "\"The design language that makes your AI harness better at design\" — a single opinionated design system (Neo Kinpaku) shipped as a skill, plus a real browser-based engine that audits live UI for anti-patterns."
+tags: [ai-skill, design-language, design-tokens, anti-pattern-detection, browser-audit, cross-harness, claude-code-plugin]
+added: 2026-06-18
+
+# Optional
+last_traced: 2026-06-18
+learned:
+  - "Unlike a catalog skill, impeccable ships ONE highly-opinionated design language ('Neo Kinpaku': kinpaku-gold + verdigris-patina on lacquer-black, OKLCH tokens) — taste by conviction, not by menu."
+  - "DESIGN.md frontmatter is a portable token export that mirrors site/styles/kinpaku-tokens.css verbatim; the CSS file is the single source of truth (dual-write discipline noted in-file)."
+  - "It's not just prose — cli/engine/ has a real anti-pattern detector that runs in a headless browser (detect-antipatterns-browser.js, ~212KB) to audit rendered UI, plus a design-system.mjs generator."
+  - "Ships to ~14 harnesses via per-harness dirs (.claude/ .codex/ .cursor/ .gemini/ .pi/ .kiro/ .opencode/ .trae/ .qoder/ …) — the broadest cross-harness fan-out seen so far."
+  - "The skill SKILL.src.md is the source of the `impeccable` skill that appears live in this very Claude Code session."
+related:
+  - "[[ui-ux-pro-max-skill]]"
+  - "[[superpowers]]"
+  - "[[open-design]]"
+articles: []

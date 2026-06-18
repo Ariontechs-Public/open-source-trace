@@ -1,0 +1,25 @@
+# Required
+name: Open Design
+category: apps
+upstream:
+  url: https://github.com/nexu-io/open-design
+  pinned_commit: "open-design-v0.11.0-32-gecb1f3ac0"   # bump when re-tracing; must match the submodule checkout
+  license: Apache-2.0
+status: tracing
+one_line: "Local-first, open-source 'Claude Design' / Figma alternative: a native desktop app that turns the coding agents already on your laptop into a design studio over a filesystem of skills, DESIGN.md systems, and plugins."
+tags: [desktop-app, design-tool, agent-native, local-first, figma-alternative, claude-design-alternative, monorepo, byok, plugin-runtime]
+added: 2026-06-18
+
+# Optional
+last_traced: 2026-06-18
+learned:
+  - "Architecture is 'design-as-filesystem': skills/ (157), design-systems/ (152 DESIGN.md brand systems), plugins/ (261) — the agent reads/writes/remixes these instead of pushing pixels on a canvas."
+  - "TS monorepo: apps/ (desktop [Electron-ish], web, daemon, landing-page, telemetry-worker) + packages/ (host, platform, plugin-runtime, sidecar, registry-protocol, agui-adapter, …) — clear host/sidecar/plugin separation."
+  - "Harness-agnostic by design: runs on Claude Code, OpenClaw, Codex, Cursor, OpenCode, Qwen, Copilot, Amp, Hermes, Kimi, Antigravity + 22 local CLIs, or any OpenAI-compatible endpoint via BYOK."
+  - "Ships its own model service (AMR — Agentic Model Router) fronting 20+ flagship models billed by real token usage — a business model bolted onto an open-source core."
+  - "Note the shared vocabulary with impeccable: both treat DESIGN.md as the portable 'brand contract'. open-design hosts 152 of them."
+related:
+  - "[[impeccable]]"
+  - "[[opencode]]"
+  - "[[ui-ux-pro-max-skill]]"
+articles: []

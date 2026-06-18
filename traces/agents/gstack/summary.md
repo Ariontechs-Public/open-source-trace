@@ -26,6 +26,6 @@ Direct comparison point against [[superpowers]]. Both externalize workflows as `
 
 ## Map
 - Long-form deep dives: not yet written. As they land they will be linked here from `notes/<topic>.md`.
-- Knowledge graph: `graphify-out/agents/gstack/` *(not yet generated — run `/graphify agents/gstack`)*
+- Knowledge graph (codegraph, live): `agents/gstack/.codegraph/` — 479 files / 5,571 nodes / 10,827 edges. Query via the codegraph MCP (`codegraph_explore`, `codegraph_search`). Rebuild with `codegraph init agents/gstack`.
 - Upstream: https://github.com/garrytan/gstack
 - Compare with: [[superpowers]] (different skill granularity philosophy), Claude Code (the host)

@@ -24,7 +24,7 @@ Same problem space as Claude Code, different design constraints. The interesting
 
 ## Map
 - Long-form deep dives: not yet written. As they land they will be linked here from `notes/<topic>.md`.
-- Knowledge graph: `graphify-out/cli-tools/opencode/` *(not yet generated — run `/graphify cli-tools/opencode`)*
+- Knowledge graph (codegraph, live): `cli-tools/opencode/.codegraph/` — 1,960 files / 35,337 nodes / 87,816 edges. Query via the codegraph MCP (`codegraph_explore`, `codegraph_search`). Rebuild with `codegraph init cli-tools/opencode`.
 - Upstream: https://github.com/anomalyco/opencode
 - Docs: https://opencode.ai/docs
 - Compare with: Claude Code (the system being competed with — Anthropic, not tracked here), [[nano-claude]] (minimal reimpl approach to the same problem)

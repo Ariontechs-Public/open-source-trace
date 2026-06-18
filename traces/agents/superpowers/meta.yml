@@ -5,7 +5,7 @@ upstream:
   url: https://github.com/obra/superpowers
   pinned_commit: "v5.1.0"          # bump when re-tracing; must match the submodule checkout
   license: MIT
-status: tracing                    # tracing | baseline | pass-1-done | archived
+status: tracing
 one_line: "Skill-based agent system: agents invoke discrete markdown skills as tools, routed by frontmatter descriptions."
 tags: [coding-agent, skill-system, anthropic-flavor, claude-code-plugin]
 added: 2026-05-19

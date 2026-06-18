@@ -13,3 +13,12 @@
 [submodule "cli-tools/claw-code"]
 	path = cli-tools/claw-code
 	url = https://github.com/ultraworkers/claw-code
+[submodule "agents/ui-ux-pro-max-skill"]
+	path = agents/ui-ux-pro-max-skill
+	url = https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+[submodule "agents/impeccable"]
+	path = agents/impeccable
+	url = https://github.com/pbakaus/impeccable
+[submodule "apps/open-design"]
+	path = apps/open-design
+	url = https://github.com/nexu-io/open-design

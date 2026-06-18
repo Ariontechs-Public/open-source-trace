@@ -28,8 +28,7 @@ I'm trying to make AI agents *reliable at workflow discipline* — TDD, brainsto
 - **Brainstorm-server orphan code?** The zero-dep WebSocket server (`scripts/server.cjs`) has 4 surprisingly direct test→implementation calls (per graph). Worth a deep dive into whether it's the recommended local UX or a deprecated artifact.
 
 ## Map
-- Knowledge graph: [`graphify-out/agents/superpowers/`](../../../graphify-out/agents/superpowers/graphify-out/) — 438 nodes / 492 edges / 37 communities. Open `graph.html` in browser.
-- Audit report: [`graphify-out/agents/superpowers/graphify-out/GRAPH_REPORT.md`](../../../graphify-out/agents/superpowers/graphify-out/GRAPH_REPORT.md) — god nodes, hyperedges, suggested questions.
+- Knowledge graph (codegraph, live): `agents/superpowers/.codegraph/` — 11 files / 119 nodes / 328 edges. Query via the codegraph MCP (`codegraph_explore`, `codegraph_search`). Rebuild with `codegraph init agents/superpowers`.
 - Upstream: <https://github.com/obra/superpowers> · pinned at `v5.1.0`.
 - Deep dives (planned, not yet written):
   - `notes/7-step-pipeline.md` — trace each skill in the main artery, what it gates and what artifacts it produces

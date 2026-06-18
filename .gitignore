@@ -1,5 +1,8 @@
-# Note: graphify-out/ is intentionally tracked. See CLAUDE.md → The Three Trees.
-# It's machine-generated but committed so visitors don't need graphify locally.
+# Knowledge-graph index: codegraph replaces the old committed graphify-out/.
+# `.codegraph/` is a live, machine-generated SQLite index living inside each
+# submodule — local tooling state, regenerated via `codegraph init <path>`,
+# never committed. (Submodules have their own git boundary, but ignore here too.)
+.codegraph/
 
 # macOS
 .DS_Store

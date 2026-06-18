@@ -9,7 +9,7 @@ Claw Code (`ultraworkers/claw-code`) is a **public demonstration of autonomous, 
 I care about the same question this project is publicly testing: **when AI can rebuild a codebase in hours, what's actually scarce?** Claw Code's bet is *architectural clarity, task decomposition, taste, conviction* — and they've built the smallest plausible exemplar of a "humans-give-direction-machines-do-labor" pipeline I've seen in OSS. That's directly informative for anything I build that aspires to autonomous operation rather than copilot-style assistance.
 
 ## Killer Ideas
-*First-pass observations from README + PHILOSOPHY.md + repo shape. No graph yet — depth will land after `/graphify cli-tools/claw-code` and a real read of `rust/` and `src/`.*
+*First-pass observations from README + PHILOSOPHY.md + repo shape. Depth will land after a real read of `rust/` and `src/` (codegraph index now available — query via the codegraph MCP).*
 
 - **"The code is evidence; the coordination system is the lesson."** Framing the *meta-system* as the artifact (vs the code) is a rare and useful intellectual move — it tells readers what *not* to optimize their attention on.
 - **Notification routing pushed OUT of agent context.** clawhip watches git/tmux/GitHub/agent-lifecycle and delivers status, so the coding agent's context window stays focused on implementation. Context economy as architecture.
@@ -37,8 +37,7 @@ I care about the same question this project is publicly testing: **when AI can r
 - The **`.omx/`** and **`.port_sessions/`** dot-dirs at repo root suggest persistent agent state lives in-repo. What's tracked vs gitignored?
 
 ## Map
-- Knowledge graph: [`graphify-out/cli-tools/claw-code/`](../../../graphify-out/cli-tools/claw-code/graphify-out/) — 5,029 nodes / 10,870 edges / 246 communities. Scope: rust/ + docs/ + root .md + scripts + tests, **excluding** src/ (Python reference, secondary) and ROADMAP.md (127K-word agent-generated artifact, would dominate). HTML auto-aggregates to 246-community view above the 5000-node threshold.
-- Audit report: [`graphify-out/cli-tools/claw-code/graphify-out/GRAPH_REPORT.md`](../../../graphify-out/cli-tools/claw-code/graphify-out/GRAPH_REPORT.md)
+- Knowledge graph (codegraph, live): `cli-tools/claw-code/.codegraph/` — 166 files / 6,825 nodes / 24,782 edges (whole repo: rust/ + src/ Python reference + docs). Query via the codegraph MCP (`codegraph_explore`, `codegraph_search`). Rebuild with `codegraph init cli-tools/claw-code`.
 - Upstream: <https://github.com/ultraworkers/claw-code> · pinned at `f8e1bb7`
 - Key docs in repo: [PHILOSOPHY.md](../../../cli-tools/claw-code/PHILOSOPHY.md) · [PARITY.md](../../../cli-tools/claw-code/PARITY.md) · [ROADMAP.md](../../../cli-tools/claw-code/ROADMAP.md) · `USAGE.md` · `rust/README.md`
 - Related repos (not submodules here, may add later): [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex), [clawhip](https://github.com/Yeachan-Heo/clawhip), [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)

@@ -1,0 +1,22 @@
+# Required
+name: UI UX Pro Max
+category: agents
+upstream:
+  url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  pinned_commit: "v2.5.0-22-gb7e3af8"   # bump when re-tracing; must match the submodule checkout
+  license: MIT
+status: tracing
+one_line: "An AI design-intelligence skill: a static knowledge base (67 UI styles, 161 palettes, 57 font pairings, 99 UX rules) plus a reasoning engine that synthesizes a tailored design system from project requirements."
+tags: [ai-skill, design-system, ui-ux, knowledge-base, cross-harness, claude-code-plugin]
+added: 2026-06-18
+
+# Optional
+last_traced: 2026-06-18
+learned:
+  - "Skill = curated design data (palettes/fonts/styles/UX rules as data files under src/ui-ux-pro-max/data) + a reasoning prompt that maps requirements → recommended system."
+  - "Installed via a CLI (`uipro-cli init --ai <platform>`) that scaffolds the skill into 18+ harnesses — distribution is a first-class concern, like superpowers."
+  - "Output is a structured 'RECOMMENDED DESIGN SYSTEM' block (pattern + style + colors + typography + effects + anti-patterns) — a deterministic template the model fills."
+related:
+  - "[[impeccable]]"
+  - "[[superpowers]]"
+articles: []
