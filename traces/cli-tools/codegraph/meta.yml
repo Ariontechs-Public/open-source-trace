@@ -1,0 +1,25 @@
+# Required
+name: codegraph
+category: cli-tools
+upstream:
+  url: https://github.com/colbymchenry/codegraph
+  pinned_commit: "4077ed1"          # main @ v1.1.1, analyzed 2026-06-25 (submodule not yet added)
+  license: MIT
+status: baseline
+one_line: "Local code knowledge graph for AI agents: TypeScript + web-tree-sitter (WASM) → SQLite/FTS5, exposed over MCP as 8 tools centered on codegraph_explore. Lean, polished, 1.0-shipped."
+tags: [oss, cli, mcp, code-intelligence, knowledge-graph, tree-sitter, sqlite, typescript, 100-local, claude-code]
+added: 2026-06-25
+
+# Optional
+last_traced: 2026-06-25
+learned:
+  - "\"Semantic\" is branding, not vectors: retrieval is SQLite FTS5 full-text + the structural graph — NO embeddings (confirmed in source; package.json has no embedding dep). The win is structure + one-shot `codegraph_explore`, not similarity search."
+  - "8 MCP tools (explore / search / callers / callees / impact / node / files / status) — collapsed from a more granular v0.9.x surface. Third-party aggregators still report stale 38-langs/42-tools/94% numbers; the repo itself says 20+ langs / 58% fewer tool calls / 22% faster."
+  - "Live-sync UX is the real differentiator: per-file staleness ⚠️ banner tells the agent to Read pending files directly; connect-time (size,mtime)+hash reconciliation absorbs edits made while no MCP server ran."
+  - "Specialized cross-language bridging for iOS / React Native / Expo (Swift↔ObjC, RN bridge/TurboModules/Fabric, native→JS events) — connects flows that static tree-sitter stops at."
+  - "Star growth ~10.4k/month (54k in ~5 months) — ~3x codebase-memory-mcp; created 2026-01-18, already at v1.1.1 (19 releases). Magnitude is unusually viral for a 2026 dev tool — treat the trend as more reliable than the absolute."
+related:
+  - "[[codebase-memory-mcp]]"
+  - "[[opencode]]"
+  - "[[nano-claude]]"
+articles: []
