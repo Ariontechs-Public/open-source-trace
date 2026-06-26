@@ -14,9 +14,11 @@ I'm trying to make AI agents *reliable at workflow discipline* — TDD, brainsto
 - **HARD-GATE textual contracts** — e.g. brainstorming's *"no implementation until design approved"*. Plain prose the model actually respects. (See `skills/brainstorming/SKILL.md`.)
 - **DOT/Graphviz flowcharts embedded in SKILL.md** parse as executable procedural intent to the model. Used heavily in `using-superpowers` and `systematic-debugging`.
 - **Two-stage code review** decomposed: `spec-reviewer-prompt` (compliance) then `code-quality-reviewer-prompt` (quality). Both run as subagents inside SDD — see `skills/subagent-driven-development/`.
+- **Tiered-model SDD (v6)** — model tier is assigned *by task judgment*: architecture/design and the final whole-branch review use the most capable model; tasks whose plan already carries complete code run on the cheapest tier ("transcription hypothesis"). Plus a **pre-flight plan review** that surfaces plan-internal contradictions as one batched question before Task 1. Reviewers get the diff *as a file, not a paste*. **🔑 貴的留給判斷,便宜的留給抄寫。**
 - **Defense-in-Depth Four Layers** for debugging (entry / business / environment / debug) — a fully named anti-checklist for "where does the bug actually live."
 - **Acceptance-test contributor gate** — `AGENTS.md` documents a *94% PR rejection rate* for AI contributors, and ships a reference task ("make a React todo list") that contributors must pass before opening PRs. Data-driven gating.
-- **Cross-harness portability** — same skills, with `references/{copilot,codex,gemini}-tools.md` mapping tool names per platform. Skill stays harness-agnostic.
+- **Cross-harness portability** — same skills, with `references/{copilot,codex,gemini,pi,antigravity}-tools.md` mapping tool names per platform. Skill stays harness-agnostic.
+- **The harness model (v6)** — a *harness* is the agent runtime (IDE/CLI/runner) that runs the skills. An integration is just three parts: **harness-agnostic skills** (name actions, never tools) + **per-harness tool mapping** + **per-harness bootstrap** that injects `using-superpowers` at session start ("the bootstrap IS the integration"). v6 widened support to 8 harnesses (Claude Code, Codex, Cursor, Copilot, Gemini, Kimi, OpenCode, pi) across 3 mechanism classes (session-start hook / in-process callback / plugin-installer manifest). See [the harness model](notes/harness-model.md). **OpenCode — which we also trace — is itself a supported harness.**
 - **TDD-for-documentation** — `writing-skills` skill applies red/green/refactor to writing skills themselves. Meta but coherent.
 - **Brainstorm server evolution**: visual-companion built → refactored non-blocking → zero-dep rewrite. The graph captured the arc as a hyperedge — useful pattern: ship simple, refactor for concurrency, then strip deps.
 
@@ -28,9 +30,10 @@ I'm trying to make AI agents *reliable at workflow discipline* — TDD, brainsto
 - **Brainstorm-server orphan code?** The zero-dep WebSocket server (`scripts/server.cjs`) has 4 surprisingly direct test→implementation calls (per graph). Worth a deep dive into whether it's the recommended local UX or a deprecated artifact.
 
 ## Map
-- Knowledge graph (codegraph, live): `agents/superpowers/.codegraph/` — 11 files / 119 nodes / 328 edges. Query via the codegraph MCP (`codegraph_explore`, `codegraph_search`). Rebuild with `codegraph init agents/superpowers`.
-- Upstream: <https://github.com/obra/superpowers> · pinned at `v5.1.0`.
+- [The harness model](notes/harness-model.md) — what a "harness" is, the 3-part integration anatomy, the 8 supported harnesses and their bootstrap mechanisms (v6).
+- Knowledge graph (codegraph, live): `agents/superpowers/.codegraph/` — 19 files / 296 nodes / 937 edges. Query via the codegraph MCP (`codegraph_explore`, `codegraph_search`). Rebuild with `codegraph init agents/superpowers`.
+- Upstream: <https://github.com/obra/superpowers> · pinned at `v6.0.3`.
 - Deep dives (planned, not yet written):
   - `notes/7-step-pipeline.md` — trace each skill in the main artery, what it gates and what artifacts it produces
   - `notes/skill-anatomy.md` — frontmatter conventions, HARD-GATE patterns, DOT-as-flowchart examples
-  - `notes/cross-harness-adapter.md` — how the same skills run on CC vs Codex vs Gemini vs OpenCode
+  - `notes/sdd-tiered-review.md` — v6's tiered-model + dual-review SDD pipeline (transcription hypothesis, pre-flight plan review)

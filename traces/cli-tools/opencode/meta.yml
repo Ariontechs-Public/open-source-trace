@@ -3,7 +3,7 @@ name: opencode
 category: cli-tools
 upstream:
   url: https://github.com/anomalyco/opencode
-  pinned_commit: "v1.15.5"         # release tag published 2026-05-18
+  pinned_commit: "v1.17.11"        # release tag
   license: MIT
 status: tracing
 one_line: "Open-source agentic coding CLI in the Claude Code space — multi-provider, single-binary install across mac/Win/Linux/Arch/nix, plus desktop apps."
@@ -11,13 +11,17 @@ tags: [oss, cli, agent-harness, multi-provider, claude-code-alternative, build-p
 added: 2026-05-19
 
 # Optional
-last_traced: 2026-05-19
+last_traced: 2026-06-26
 learned:
   - "Two-agent toggle: `build` (full-access) vs `plan` (read-only, denies edits, asks before bash). Tab-switchable — the safety/exploration tradeoff is a user-visible affordance, not a settings dialog."
   - "Internal `general` subagent for complex searches, invokable via @general."
   - "Distribution surface is massive (brew tap + scoop + choco + AUR + nix + mise + curl + npm + desktop installers) — lowers 'I can't try it' friction more than docs ever could."
   - "22+ READMEs in maintained translations — community translation surface is treated as a feature."
   - "Default branch is `dev`, not `main` — release discipline distinguishes integration target from publishable releases."
+  - "2026 Q2 (~5,800 commits Feb–Jun): CLI → platform. Five concurrent rewrites — (1) 'v2' runtime on Effect with compactible/interruptible context epochs; (2) unified HTTP API bridging event/tui/pty/session routes; (3) serious desktop app (utilityProcess server, own permission model); (4) ACP-next protocol layer for editor integration; (5) its own skill registry + command registry."
+  - "Sessions became first-class time-travelable objects: snapshot/revert (#33226), fork, move (#30640), mid-session model switching. A conversation as a versioned artifact with undo, not an append-only log."
+  - "Build the API boundary first, then grow front-ends: the httpapi layer (28 commits) is what lets one core feed CLI + web + desktop + editor."
+  - "Convergence with superpowers: opencode grows its own skill system AND is a supported superpowers harness (.opencode/plugins/superpowers.js, in-process callback)."
 related:
   - "[[claw-code]]"
   - "[[nano-claude]]"

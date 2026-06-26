@@ -3,7 +3,7 @@ name: Superpowers
 category: agents
 upstream:
   url: https://github.com/obra/superpowers
-  pinned_commit: "v5.1.0"          # bump when re-tracing; must match the submodule checkout
+  pinned_commit: "v6.0.3"          # bump when re-tracing; must match the submodule checkout
   license: MIT
 status: tracing
 one_line: "Skill-based agent system: agents invoke discrete markdown skills as tools, routed by frontmatter descriptions."
@@ -11,7 +11,7 @@ tags: [coding-agent, skill-system, anthropic-flavor, claude-code-plugin]
 added: 2026-05-19
 
 # Optional
-last_traced: 2026-05-19
+last_traced: 2026-06-26
 learned:
   - "Skills are .md files with YAML frontmatter; the `description` field is the routing hint the LLM uses to decide when to invoke."
   - "Process skills (brainstorming, debugging, TDD) explicitly take priority over implementation skills."
@@ -22,6 +22,8 @@ learned:
   - "Cross-harness portability is a first-class concern: same skills work on Claude Code, Codex, Copilot, Gemini, OpenCode via per-harness tool-name mapping references."
   - "AGENTS.md ships an acceptance test ('build a React todo list') and cites a 94% PR-rejection rate — data-driven contributor gate, not just guidelines."
   - "TDD-for-documentation: the writing-skills skill applies red/green/refactor to skill prose itself."
+  - "Harness model (v6): a harness is the agent runtime that runs skills. Integration = harness-agnostic skills (name actions not tools) + per-harness tool mapping + per-harness bootstrap that injects using-superpowers at session start. 'The bootstrap IS the integration.' 8 harnesses supported across 3 mechanism classes (session-start hook / in-process callback / plugin-installer manifest). OpenCode is one of them."
+  - "Tiered-model SDD (v6): model tier assigned by task judgment — most-capable model for architecture/design + final review, cheapest tier for tasks whose plan carries complete code ('transcription hypothesis'). Plus a pre-flight plan review batching plan-internal contradictions before Task 1."
 related:
   - "[[gstack]]"
   - "[[claw-code]]"
