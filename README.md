@@ -51,7 +51,7 @@ New categories (e.g., `models/`) are added as the scope grows.
 | [Open Design](traces/apps/open-design/summary.md) | apps | `v0.11.0` | tracing | Local-first, open-source "Claude Design" / Figma alternative: a native desktop app that turns the coding agents already on your laptop into a design studio over a filesystem of skills, DESIGN.md systems, and plugins. |
 | [codegraph](traces/cli-tools/codegraph/summary.md) | cli-tools | `4077ed1` | baseline | Local code knowledge graph for AI agents: TypeScript + web-tree-sitter → SQLite/FTS5, 8 MCP tools centered on codegraph_explore. Lean, polished, 1.0-shipped. (Head-to-head vs codebase-memory-mcp in its notes/.) |
 | [codebase-memory-mcp](traces/cli-tools/codebase-memory-mcp/summary.md) | cli-tools | `34efbc0` | baseline | Maximalist code-intelligence MCP engine in pure C: single static binary, 158 grammars, bundled nomic embeddings, Hybrid LSP, Cypher + cross-repo + IaC. arXiv-backed, still pre-1.0. |
-| [yt-dlp](traces/cli-tools/yt-dlp/summary.md) | cli-tools | `2026.06.09` | tracing | Community media downloader (youtube-dl fork): ~1,800 self-describing site extractors dispatched by per-extractor URL regex with no central routing table, a 4.5k-line YoutubeDL orchestrator, a format-selection DSL, and a hand-rolled JS interpreter to defeat YouTube's signature challenges. |
+| [yt-dlp](traces/cli-tools/yt-dlp/summary.md) | cli-tools | `2026.06.09` | pass-1-done | Community media downloader (youtube-dl fork): ~1,800 self-describing site extractors dispatched by per-extractor URL regex with no central routing table, a 4.5k-line YoutubeDL orchestrator, a format-selection DSL, and a hand-rolled JS interpreter to defeat YouTube's signature challenges. |
 
 <!-- INDEX:END -->
 

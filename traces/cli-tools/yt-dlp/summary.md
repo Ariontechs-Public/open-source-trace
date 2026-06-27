@@ -17,12 +17,15 @@ This repo is mostly AI/agent tooling, and yt-dlp earns its slot as the *canonica
 - **Public-domain (Unlicense) as survival strategy** — the legal precondition for the youtube-dl→yt-dlp fork and for yt-dlp's own forkability.
 
 ## Open Questions
-- How does the `YoutubeDL` 4.5k-line orchestrator stay maintainable — or is it the known soft spot? Map its phase boundaries (extract / filter / format-select / download / post-process).
-- Format-selection grammar: where is it actually parsed, and how are filters (`[height<=720]`) evaluated against the format dict?
-- Downloader strategy selection (`downloader/`): how does it pick HLS vs DASH vs native vs external (ffmpeg/aria2)?
-- Extractor testing at scale — how does CI validate ~1,800 extractors against sites that change without notice?
+- `process_video_result` internals (`YoutubeDL.py:2827`): how thumbnails, subtitles, the post-processor chain, and the actual download are sequenced in the terminal stage.
+- The `-S` **sort-key** language (`FormatSorter`, `common.py:1942`) — the *ranking* side, distinct from the *selection* DSL the deep dive already covers.
+- Extractor testing at scale — how CI validates ~1,800 extractors against sites that change without notice (`test/test_all_urls.py`).
+- The `networking/` stack: impersonation and the `_download_*` retry/backoff machinery.
+
+> Resolved in pass 1 (see [architecture deep dive](notes/architecture.md)): extractor dispatch & collision handling, the extract→process recursive pipeline, the format-selection compiler, downloader-strategy selection, `jsinterp`, and the plugin system.
 
 ## Map
+- [Architecture deep dive](notes/architecture.md) — extractor registry, extract→process pipeline, format-selection compiler, downloader selection, jsinterp, plugins (pass 1).
 - Knowledge graph (codegraph, live): `cli-tools/yt-dlp/.codegraph/` — query via the codegraph MCP (`codegraph init cli-tools/yt-dlp` to build).
 - Core orchestrator: `cli-tools/yt-dlp/yt_dlp/YoutubeDL.py`
 - Extractor base class: `cli-tools/yt-dlp/yt_dlp/extractor/common.py`
