@@ -41,16 +41,17 @@ New categories (e.g., `models/`) are added as the scope grows.
 
 | Project | Category | Pinned | Status | One Line |
 |---|---|---|---|---|
-| [Superpowers](traces/agents/superpowers/summary.md) | agents | v5.1.0 | tracing | Skill-based agent system: agents invoke discrete markdown skills as tools, routed by frontmatter descriptions. |
+| [Superpowers](traces/agents/superpowers/summary.md) | agents | v6.0.3 | tracing | Skill-based agent system: agents invoke discrete markdown skills as tools, routed by frontmatter descriptions. |
 | [gstack](traces/agents/gstack/summary.md) | agents | `026751ea` | tracing | Garry Tan's Claude Code setup: 23 persona-bundled subagent skills (CEO, Designer, Eng Manager, Reviewer, QA, SRE...) that compose via design-doc handoff. |
 | [Claw Code](traces/cli-tools/claw-code/summary.md) | cli-tools | `f8e1bb7` | tracing | Public demo of autonomous, multi-agent software development: humans direct from Discord, autonomous claws plan/execute/review/retry in parallel. The repo (Rust CLI + Python reference) is the byproduct; the coordination loop is the lesson. |
-| [opencode](traces/cli-tools/opencode/summary.md) | cli-tools | v1.15.5 | tracing | Open-source agentic coding CLI in the Claude Code space — multi-provider, single-binary install across mac/Win/Linux/Arch/nix, plus desktop apps. |
+| [opencode](traces/cli-tools/opencode/summary.md) | cli-tools | v1.17.11 | tracing | Open-source agentic coding CLI in the Claude Code space — multi-provider, single-binary install across mac/Win/Linux/Arch/nix, plus desktop apps. |
 | [nano-claude](traces/cli-tools/nano-claude/summary.md) | cli-tools | `21ee5c6` | tracing | Minimal Claude Code reimplementation in ~2,000 lines of TypeScript (19 files, 7 tools, Node.js + readline) — explicitly designed as a learning artifact with versioned milestones v0..v8. |
 | [Impeccable](traces/agents/impeccable/summary.md) | agents | `cli-v3.0.3` | tracing | "The design language that makes your AI harness better at design" — one opinionated design system (Neo Kinpaku) shipped as a skill, plus a browser-based engine that audits live UI for anti-patterns. |
 | [UI UX Pro Max](traces/agents/ui-ux-pro-max-skill/summary.md) | agents | `v2.5.0` | tracing | An AI design-intelligence skill: a curated knowledge base (67 UI styles, 161 palettes, 57 font pairings, 99 UX rules) plus a reasoning engine that synthesizes a tailored design system from project requirements. |
 | [Open Design](traces/apps/open-design/summary.md) | apps | `v0.11.0` | tracing | Local-first, open-source "Claude Design" / Figma alternative: a native desktop app that turns the coding agents already on your laptop into a design studio over a filesystem of skills, DESIGN.md systems, and plugins. |
 | [codegraph](traces/cli-tools/codegraph/summary.md) | cli-tools | `4077ed1` | baseline | Local code knowledge graph for AI agents: TypeScript + web-tree-sitter → SQLite/FTS5, 8 MCP tools centered on codegraph_explore. Lean, polished, 1.0-shipped. (Head-to-head vs codebase-memory-mcp in its notes/.) |
 | [codebase-memory-mcp](traces/cli-tools/codebase-memory-mcp/summary.md) | cli-tools | `34efbc0` | baseline | Maximalist code-intelligence MCP engine in pure C: single static binary, 158 grammars, bundled nomic embeddings, Hybrid LSP, Cypher + cross-repo + IaC. arXiv-backed, still pre-1.0. |
+| [yt-dlp](traces/cli-tools/yt-dlp/summary.md) | cli-tools | `2026.06.09` | tracing | Community media downloader (youtube-dl fork): ~1,800 self-describing site extractors dispatched by per-extractor URL regex with no central routing table, a 4.5k-line YoutubeDL orchestrator, a format-selection DSL, and a hand-rolled JS interpreter to defeat YouTube's signature challenges. |
 
 <!-- INDEX:END -->
 

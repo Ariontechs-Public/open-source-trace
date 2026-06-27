@@ -22,3 +22,6 @@
 [submodule "apps/open-design"]
 	path = apps/open-design
 	url = https://github.com/nexu-io/open-design
+[submodule "cli-tools/yt-dlp"]
+	path = cli-tools/yt-dlp
+	url = https://github.com/yt-dlp/yt-dlp

@@ -1,0 +1,25 @@
+# Required
+name: yt-dlp
+category: cli-tools
+upstream:
+  url: https://github.com/yt-dlp/yt-dlp
+  pinned_commit: "2026.06.09"      # release tag (date-based versioning); must match the submodule checkout
+  license: Unlicense
+status: tracing
+one_line: "Community-maintained media downloader (youtube-dl fork): ~1,800 self-describing site extractors dispatched by per-extractor URL regex, a 4.5k-line YoutubeDL orchestrator, a format-selection mini-language, and a hand-rolled JS interpreter to defeat YouTube's signature challenges."
+tags: [oss, cli, python, plugin-architecture, extractor-registry, dsl, public-domain, adversarial-maintenance]
+added: 2026-06-27
+
+# Optional
+last_traced: 2026-06-27
+learned:
+  - "Self-describing extractor registry: every site is an `InfoExtractor` subclass that declares its own `_VALID_URL` regex; `suitable(url)` matches URL→extractor with NO central routing map. ~940 files → ~1,800 extractor classes, all discovered by subclass walk. This is skill/tool-frontmatter routing for agents, done a decade earlier — each capability advertises what inputs it handles."
+  - "Lazy extractors: a generated `_extractors.py` list + lazy import keeps startup fast despite 1,800 classes — the registry is enumerable without importing every plugin's body."
+  - "`jsinterp.py` is a from-scratch JavaScript interpreter whose entire reason to exist is running YouTube's obfuscated player JS (signature / n-param challenges) without a JS engine. A sandboxed mini-interpreter for untrusted adversarial code — directly relevant to anyone executing untrusted snippets inside an agent."
+  - "Plugin system uses `importlib.abc.MetaPathFinder`/`PluginLoader` to graft third-party packages into a `yt_dlp_plugins` namespace — extension by namespace-package injection, not a config file."
+  - "Format selection is a real mini-language (`bestvideo+bestaudio/best`, filters like `[height<=720]`, fallback `/`) parsed inside YoutubeDL — a DSL beats a flag explosion for combinatorial user intent."
+  - "The Unlicense (public domain) is load-bearing: it is WHY youtube-dl could be forked into yt-dlp at all, and why yt-dlp itself is freely re-forkable. Licensing as a survival strategy for an adversarially-pressured project."
+related:
+  - "[[opencode]]"
+  - "[[superpowers]]"
+articles: []
