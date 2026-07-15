@@ -25,3 +25,6 @@
 [submodule "cli-tools/yt-dlp"]
 	path = cli-tools/yt-dlp
 	url = https://github.com/yt-dlp/yt-dlp
+[submodule "apps/openwiki"]
+	path = apps/openwiki
+	url = https://github.com/langchain-ai/openwiki.git
