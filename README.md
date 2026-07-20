@@ -53,6 +53,7 @@ New categories (e.g., `models/`) are added as the scope grows.
 | [codebase-memory-mcp](traces/cli-tools/codebase-memory-mcp/summary.md) | cli-tools | `34efbc0` | baseline | Maximalist code-intelligence MCP engine in pure C: single static binary, 158 grammars, bundled nomic embeddings, Hybrid LSP, Cypher + cross-repo + IaC. arXiv-backed, still pre-1.0. |
 | [yt-dlp](traces/cli-tools/yt-dlp/summary.md) | cli-tools | `2026.06.09` | pass-1-done | Community media downloader (youtube-dl fork): ~1,800 self-describing site extractors dispatched by per-extractor URL regex with no central routing table, a 4.5k-line YoutubeDL orchestrator, a format-selection DSL, and a hand-rolled JS interpreter to defeat YouTube's signature challenges. |
 | [OpenWiki](traces/apps/openwiki/summary.md) | apps | `0.1.2` | baseline | LangChain's agent-wiki CLI: deterministic connectors dump raw data, a deepagents-based agent synthesizes a markdown wiki — repo docs (code mode) or a personal brain (~/.openwiki/wiki). |
+| [Orca](traces/agents/orca/summary.md) | agents | `v1.4.147` | tracing | Electron ADE for fanning one prompt across many coding agents (Claude Code, Codex, OpenCode, Gemini, Cursor, Devin, 20+ others), each isolated in its own git worktree, with a mobile companion and its own internal skill/orchestration system. |
 
 <!-- INDEX:END -->
 

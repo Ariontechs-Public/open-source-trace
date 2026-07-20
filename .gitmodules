@@ -28,3 +28,6 @@
 [submodule "apps/openwiki"]
 	path = apps/openwiki
 	url = https://github.com/langchain-ai/openwiki.git
+[submodule "agents/orca"]
+	path = agents/orca
+	url = https://github.com/stablyai/orca

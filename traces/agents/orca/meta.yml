@@ -1,0 +1,26 @@
+# Required
+name: Orca
+category: agents
+upstream:
+  url: https://github.com/stablyai/orca
+  pinned_commit: "v1.4.147"          # bump when re-tracing; must match the submodule checkout
+  license: MIT
+status: tracing
+one_line: "Electron ADE for fanning one prompt across many coding agents (Claude Code, Codex, OpenCode, Gemini, Cursor, Devin, 20+ others), each isolated in its own git worktree, with a mobile companion and its own internal skill/orchestration system."
+tags: [multi-agent, orchestration, electron-app, worktrees, ide, coding-agent-manager, yc-backed]
+added: 2026-07-21
+
+# Optional
+last_traced: 2026-07-21
+learned:
+  - "Core unit of isolation is a native git worktree, not a container/VM — cheap to create/destroy, and git-native so diffs, branches, and merges just work without a translation layer."
+  - "Agent-agnostic by construction: src/main/ has a peer directory per provider (claude, codex, gemini, grok, cursor, copilot, devin, droid, amp, opencode, pi, hermes, kimi, mimo, minimax, antigravity, ...) — provider support is additive, not a fork per agent."
+  - "src/relay is a separate process from src/main — a socket-based relay mediates PTY, git, and filesystem operations (agent-exec-handler, git-handler, fs-handler, pty-handler) so the same protocol works for local, WSL, and SSH-remote worktrees uniformly."
+  - "Orca ships its own skill system (skills/orchestration, skills/orca-cli, skills/computer-use, ...) with frontmatter `description`-based routing — structurally the same pattern as [[superpowers]]'s skill routing, but used to let agents *running inside* Orca coordinate with each other (task DAGs, blocking ask/reply, worker_done/escalation waits, decision gates) rather than to route a single agent's own behavior."
+  - "AGENTS.md is unusually concrete: a documented Git-compatibility matrix across host types (native/WSL/SSH) and Git versions with a `GitCapabilityCache` pattern, a 'why not how' one-line comment-length rule with a before/after example, and a hard ban on generic file names (`helpers`/`utils`/`misc`) — all enforced as contributor policy, not just style guide prose."
+  - "Design Mode closes the loop from rendered UI back to an agent: click an element in the embedded browser and its HTML/CSS/screenshot go straight into the agent's prompt, instead of the human hand-describing what changed."
+  - "docs/ is a flat pile of ~100+ per-feature design docs (e.g. cmd-j-tab-session-search.md, android-emulation.md, kill-all-sessions-also-kills-empty-terminals.md) committed alongside the code that implements them — a lightweight ADR-per-feature practice rather than a single architecture doc."
+  - "reliability is gated mechanically at CI/lint level: check-reliability-gates.mjs and check-max-lines-ratchet.mjs run inside `pnpm lint`, and AGENTS.md explicitly forbids disabling the max-lines rule — file-size discipline is enforced, not aspirational."
+related:
+  - "[[superpowers]]"
+articles: []
