@@ -23,6 +23,6 @@ This is the same "fan a prompt across N agents, judge/merge the best" pattern I 
 - Given `pnpm-lock.yaml` at 477K and dozens of huge test files (`persistence.test.ts` at 328K, `pty-handler.test.ts` at 87K), what does the actual CI wall-clock and flakiness profile look like for a codebase this size?
 
 ## Map
-- [Why / What / How — philosophy from docs, source, and git history](notes/philosophy.md)
+- [Why / What / How — philosophy from docs, source, and git history](notes/philosophy.md)（[中文版](notes/philosophy.zh.md)）
 - Knowledge graph (codegraph, live): `agents/orca/.codegraph/` — query via the codegraph MCP.
 - Upstream: https://github.com/stablyai/orca
