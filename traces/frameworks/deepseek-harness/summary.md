@@ -29,5 +29,6 @@ This is the reference implementation of the question I keep hitting: *when a har
 
 ## Map
 - [Architecture deep dive — the plugin tree, the turn loop, and the gates](notes/architecture.md)
+- [Building a requirement → ship pipeline on dsh](notes/autonomous-pipeline.md) — plan mode's review loop, the three continuation loops (`goal` / `ralph` / `workflow`) compared, and the two stages dsh doesn't ship
 - Knowledge graph (codegraph, live): `frameworks/deepseek-harness/.codegraph/` — query via the codegraph MCP.
 - Upstream: https://github.com/deepseek-ai/deepseek-harness
