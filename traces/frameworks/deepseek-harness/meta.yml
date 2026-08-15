@@ -1,0 +1,31 @@
+# Required
+name: DeepSeek Harness
+category: frameworks
+upstream:
+  url: https://github.com/deepseek-ai/deepseek-harness
+  pinned_commit: "47f9438"          # bump when re-tracing; must match the submodule checkout
+  license: MIT
+status: baseline
+one_line: "DeepSeek's open-source agent harness (`dsh`): everything — model adapter, tool registry, session log, even the agent loop — is a Cordis plugin, composed at boot from patchable profile/bundle layers, with an append-only session log as the single source of model-visible truth."
+tags: [agent-harness, plugin-architecture, cordis, dependency-injection, event-sourcing, capability-seams, typescript, monorepo, deepseek, agent-notes]
+added: 2026-08-15
+
+# Optional
+last_traced: 2026-08-15
+learned:
+  - "'Everything is a plugin' is literal, not marketing: `core/agent-loop` is itself a swappable plugin registered on `ctx.agentLoop`, so there is no privileged core to patch — you extend dsh by mounting a plugin beside the others, never by editing the loop."
+  - "Cordis (vendored from cordiverse, rescoped to `@deepseek-ai/cordis-*` under `vendor/`) supplies the five primitives: plugin-implements-Service, context-as-service-repository, `inject` for load ordering, typed events via TS declaration merging, and **registrations as reversible effects** (`ctx.effect()` returns a disposer, so unload unwinds cleanly)."
+  - "**Model-visible ⟺ logged** is a runtime-asserted invariant: anything reaching a model request must be reconstructable from the append-only session log. Adding a new model-visible input requires extending `SessionEventMap` — you cannot smuggle context in via a side channel."
+  - "Even the agent's input queue is event-sourced. `Inbox` (packages/core/agent/src/inbox.ts) is a replay-once projection over durable `agent/inbox/spliced` events, with two lanes: `next-turn` (queued prompts) and `next-step` (steering/injected context that lands at the next step boundary)."
+  - "A **capability seam** is a mandatory role triad — Service Definition / Service Provider / Consumer. One role alone is not a seam. Because fs and subprocess providers share one execution world, pointing them at a remote sandbox moves Bash, PTY, and LSP with them: no per-backend forks."
+  - "Composition is layered patching, not a config file: a *profile* stacks *bundles* (`dsh-base` → `dsh-web-app` / `dsh-headless`), then profile `cordis.patch.yml`, then home-level, then `--patch`. `dsh --profile web --dump-config` prints the boot tree, and any row it prints can be replaced."
+  - "`.agents/notes/` is a machine-gated RFC system: 684 agent-authored design notes under `{lifecycle}/{class}/yyyy-mm-dd-topic.md` (implemented 506 / archived 142 / proposed 25 / rejected 11), each mirrored by a `.zh.md` counterpart. Every non-trivial PR MUST carry one; `## Alternatives considered` is mandatory; archived notes are hash-sealed and never editable."
+  - "`packages/extensions/tool-cordis` closes the self-reference loop: `cordis_inspect` / `cordis_mount` / `cordis_unmount` let the *model* enumerate the live plugin tree and mount a new plugin (with new tools) into its own runtime mid-session, in a `node:vm` realm, disposable to quiescence. Explicitly bash-equivalent trust, not a security boundary."
+  - "Deliberate interop with the incumbents: `hooks-claude-code` / `hooks-codex` speak their hook wire protocols, `subagent-claude-code` / `subagent-codex` / `subagent-acp` delegate a subagent turn to *another product* behind one interface, and a skill provider registry mirrors the skills convention."
+  - "Discipline is enforced by 142 scripts in `scripts/` wired into `pnpm run doc-sync`/`lint`: per-file 100% coverage gate, generated-catalog freshness checks (config/tool/module/persistence catalogs regenerate in memory and fail on diff), JSDoc export gate, agent-note format + classification + archive-freeze gates, doc word budgets, cross-file clone detection."
+  - "302k LOC of non-test TS against 263k LOC of test TS across 219 packages, built in ~2 months (12,293 commits, June–August 2026, 37 authors) — pre-release stance is explicit: 'foundation over blast radius', rename freely, no compatibility shims until the first tagged release."
+related:
+  - "[[opencode]]"
+  - "[[nano-claude]]"
+  - "[[orca]]"
+articles: []

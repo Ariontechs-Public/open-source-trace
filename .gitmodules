@@ -31,3 +31,6 @@
 [submodule "agents/orca"]
 	path = agents/orca
 	url = https://github.com/stablyai/orca
+[submodule "frameworks/deepseek-harness"]
+	path = frameworks/deepseek-harness
+	url = https://github.com/deepseek-ai/deepseek-harness.git
